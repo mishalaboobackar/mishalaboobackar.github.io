@@ -1,0 +1,18 @@
+[project]
+name = "mishalaboobackar-github-io"
+version = "0.0.1"
+description = "Initial website for Mishal Aboobackar Manalody Github"
+authors = [
+    {name = "Mishal Aboobackar Manalody",email = "231106438+mishalaboobackar@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = "^3.10"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "mishalaboobackar"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
