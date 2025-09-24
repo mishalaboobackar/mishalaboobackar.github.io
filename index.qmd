@@ -1,7 +1,40 @@
 ---
-title: "Mishal Aboobackar Manalody"
+title: "Welcome to My Website"
+author: "Mishal Aboobackar Manalody"
+date: "`r Sys.Date()`"
+format:
+  html:
+    theme: journal
+    toc: true
 ---
 
-This is a Quarto website.
+# Hello, World!  
+Welcome to my Quarto website.  
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+---
+
+## About Me
+- Passionate about **technology** and **learning**.  
+- Interested in **data science**, **AI**, and **web development**.  
+- Always exploring new tools and frameworks.  
+
+
+---
+
+## Projects
+Here are some areas I’m working on:  
+   
+[Check out my GitHub](https://github.com/mishalaboobackar)
+
+
+
+---
+
+## Contact
+You can connect with me through:  
+- [Phone Number](+1(617)-849-4170)   
+- [Email Me](mishaaal@bu.edu)  
+
+---
+
+
