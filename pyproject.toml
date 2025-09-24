@@ -1,12 +1,12 @@
 [project]
 name = "mishalaboobackar-github-io"
-version = "0.1.0"
-description = ""
+version = "0.0.1"
+description = "Initial Website for Mishal Aboobackar Manalody"
 authors = [
     {name = "Mishal Aboobackar Manalody",email = "mishaaal@bu.edu"}
 ]
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = "^3.10"
 dependencies = [
 ]
 
