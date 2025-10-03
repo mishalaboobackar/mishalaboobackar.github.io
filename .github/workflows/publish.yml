@@ -4,6 +4,9 @@ on:
   push:
     branches: [ main ]   # change to master if needed
 
+permissions:
+  contents: write
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
@@ -11,6 +14,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
 
       # Setup Python
       - name: Set up Python
@@ -22,7 +28,7 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libcairo2-dev pkg-config python3-dev libfreetype6-dev libpng-dev libxml2-dev libxslt1-dev
+          sudo apt-get install -y build-essential libssl-dev libcairo2-dev pkg-config python3-dev libfreetype6-dev libpng-dev libxml2-dev libxslt1-dev
 
       # Install Python dependencies
       - name: Install Python dependencies
@@ -30,9 +36,25 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      # Register IPython kernel for Quarto
+      - name: Register IPython kernel
+        run: |
+          python -m ipykernel install --user --name=python3
+
+      # Setup R
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
+
       # Setup Quarto
       - name: Install Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+
+      # Render site (fail-fast for better debugging)
+      - name: Render site (fail-fast)
+        run: quarto render --no-cache --log-level debug
+        env:
+          QUARTO_PYTHON: python
+          QUARTO_PYTHON_KERNEL: python3
 
       # Render + Publish
       - name: Render & Publish
@@ -41,3 +63,5 @@ jobs:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          QUARTO_PYTHON: python
+          QUARTO_PYTHON_KERNEL: python3
