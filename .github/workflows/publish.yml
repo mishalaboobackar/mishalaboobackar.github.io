@@ -2,7 +2,7 @@ name: Quarto Publish
 
 on:
   push:
-    branches: [ main ]   
+    branches: [ main ]   # change to master if needed
 
 jobs:
   build-deploy:
@@ -18,11 +18,17 @@ jobs:
         with:
           python-version: "3.12"
 
+      # Install system libraries needed for pycairo, lxml, etc.
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcairo2-dev pkg-config python3-dev libfreetype6-dev libpng-dev libxml2-dev libxslt1-dev
+
+      # Install Python dependencies
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install -r docs/requirements.txt
 
       # Setup Quarto
       - name: Install Quarto
