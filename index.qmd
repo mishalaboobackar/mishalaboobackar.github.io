@@ -32,9 +32,21 @@ Here are some areas I’m working on:
 
 ## Contact
 You can connect with me through:  
-- [Phone Number](+1(617)-849-4170)   
-- [Email Me](mishaaal@bu.edu)  
+- [Phone Number]- +1(617)-849-4170   
+- [Email Me]- mishaaal@bu.edu  
 
 ---
+Here’s a sample Python code cell with a plot:
 
+```{python}
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+plt.plot(x, y, label="sin(x)")
+plt.legend()
+plt.title("Sample Plot")
+plt.show()
 

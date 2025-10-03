@@ -2,4 +2,17 @@
 title: "About"
 ---
 
-About this site
+This website is created for the subject AD688 - Cloud Analytics for Business and will be updated in the coming days.
+
+---
+Here’s a sample Python code cell that outputs a small dataframe:
+
+```{python}
+import pandas as pd
+
+data = {
+    "Name": ["Alice", "Bob", "Charlie"],
+    "Score": [85, 92, 78]
+}
+df = pd.DataFrame(data)
+df
