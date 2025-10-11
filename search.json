@@ -4,14 +4,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "This website is created for the subject AD688 - Cloud Analytics for Business and will be updated in the coming days.\n\nHere’s a sample Python code cell that outputs a small dataframe:\nimport pandas as pd\ndata = { “Name”: [“Alice”, “Bob”, “Charlie”], “Score”: [85, 92, 78] } df = pd.DataFrame(data) df"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome to My Website",
     "section": "",
-    "text": "Welcome to my Quarto website.\n\n\n\n\nPassionate about technology and learning.\n\nInterested in data science, AI, and web development.\n\nAlways exploring new tools and frameworks.\n\n\n\n\n\nHere are some areas I’m working on:\nCheck out my GitHub\n\n\n\n\nYou can connect with me through:\n- Phone Number\n- Email Me"
+    "text": "Welcome to my Quarto website.\n\n\n\n\nPassionate about technology and learning.\n\nInterested in data science, AI, and web development.\n\nAlways exploring new tools and frameworks.\n\n\n\n\n\nHere are some areas I’m working on:\nCheck out my GitHub\n\n\n\n\nYou can connect with me through:\n- [Phone Number]- +1(617)-849-4170\n- [Email Me]- mishaaal@bu.edu\n\nHere’s a sample Python code cell with a plot:\nimport matplotlib.pyplot as plt import numpy as np\nx = np.linspace(0, 10, 100) y = np.sin(x)\nplt.plot(x, y, label=“sin(x)”) plt.legend() plt.title(“Sample Plot”) plt.show()"
   },
   {
     "objectID": "index.html#about-me",
@@ -32,6 +32,6 @@
     "href": "index.html#contact",
     "title": "Welcome to My Website",
     "section": "",
-    "text": "You can connect with me through:\n- Phone Number\n- Email Me"
+    "text": "You can connect with me through:\n- [Phone Number]- +1(617)-849-4170\n- [Email Me]- mishaaal@bu.edu\n\nHere’s a sample Python code cell with a plot:\nimport matplotlib.pyplot as plt import numpy as np\nx = np.linspace(0, 10, 100) y = np.sin(x)\nplt.plot(x, y, label=“sin(x)”) plt.legend() plt.title(“Sample Plot”) plt.show()"
   }
 ]
