@@ -36,17 +36,18 @@ You can connect with me through:
 - [Email Me]- mishaaal@bu.edu  
 
 ---
-Here’s a sample Python code cell with a plot:
-
+Skills
 ```{python}
 import matplotlib.pyplot as plt
-import numpy as np
 
-x = np.linspace(0, 10, 100)
-y = np.sin(x)
+skills = ['Python', 'SQL', 'Excel', 'Power BI', 'R']
+proficiency = [8, 7, 9, 8, 6]
 
-plt.plot(x, y, label="sin(x)")
-plt.legend()
-plt.title("Sample Plot")
+plt.figure(figsize=(10, 5))
+plt.barh(skills, proficiency, color='steelblue')
+plt.xlabel('Proficiency (out of 10)')
+plt.title('Technical Skills')
+plt.xlim(0, 10)
+plt.tight_layout()
 plt.show()
-
+```

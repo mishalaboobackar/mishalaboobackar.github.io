@@ -1,18 +1,29 @@
 ---
 title: "About"
 ---
-
-This website is created for the subject AD688 - Cloud Analytics for Business and will be updated in the coming days.
-
----
-Here’s a sample Python code cell that outputs a small dataframe:
+Education and Career timeline
 
 ```{python}
 import pandas as pd
 
-data = {
-    "Name": ["Alice", "Bob", "Charlie"],
-    "Score": [85, 92, 78]
-}
-df = pd.DataFrame(data)
-df
+timeline = pd.DataFrame({
+    'Period': ['2020-2024', '2023 (Jul-Aug)', '2023-2025', '2024-2026'],
+    'Activity': ['BTech - SRM University', 'HR Intern - USDC', 'Operations Head - G-TEC', 'MS Analytics - BU'],
+    'Type': ['Education', 'Work', 'Work', 'Education']
+})
+timeline
+```
+---
+Languages Proficiency Level
+
+```{python}
+import matplotlib.pyplot as plt
+
+languages = ['English', 'Hindi', 'Malayalam', 'Tamil', 'Arabic', 'Japanese']
+levels = [5, 5, 5, 5, 2, 2]  # Fluent=5, Basic=2
+
+plt.figure(figsize=(8, 6))
+plt.pie(levels, labels=languages, autopct='%1.0f%%', startangle=90)
+plt.title('Language Proficiency Distribution')
+plt.show()
+```
