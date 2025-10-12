@@ -4,14 +4,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Education and Career timeline\n\nimport pandas as pd\n\ntimeline = pd.DataFrame({\n    'Period': ['2020-2024', '2023 (Jul-Aug)', '2023-2025', '2024-2026'],\n    'Activity': ['BTech - SRM University', 'HR Intern - USDC', 'Operations Head - G-TEC', 'MS Analytics - BU'],\n    'Type': ['Education', 'Work', 'Work', 'Education']\n})\ntimeline\n\n\n\n\n\n\n\n\nPeriod\nActivity\nType\n\n\n\n\n0\n2020-2024\nBTech - SRM University\nEducation\n\n\n1\n2023 (Jul-Aug)\nHR Intern - USDC\nWork\n\n\n2\n2023-2025\nOperations Head - G-TEC\nWork\n\n\n3\n2024-2026\nMS Analytics - BU\nEducation\n\n\n\n\n\n\n\n\nLanguages Proficiency Level\n\nimport matplotlib.pyplot as plt\n\nlanguages = ['English', 'Hindi', 'Malayalam', 'Tamil', 'Arabic', 'Japanese']\nlevels = [5, 5, 5, 5, 2, 2]  # Fluent=5, Basic=2\n\nplt.figure(figsize=(8, 6))\nplt.pie(levels, labels=languages, autopct='%1.0f%%', startangle=90)\nplt.title('Language Proficiency Distribution')\nplt.show()"
+    "text": "Education and Career timeline\n\n\n\n\n\n\n\n\n\nPeriod\nActivity\nType\n\n\n\n\n0\n2020-2024\nBTech - SRM University\nEducation\n\n\n1\n2023 (Jul-Aug)\nHR Intern - USDC\nWork\n\n\n2\n2023-2025\nOperations Head - G-TEC\nWork\n\n\n3\n2024-2026\nMS Analytics - BU\nEducation\n\n\n\n\n\n\n\n\nLanguages Proficiency Level"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome to My Website",
     "section": "",
-    "text": "Welcome to my Quarto website.\n\n\n\n\nPassionate about technology and learning.\n\nInterested in data science, AI, and web development.\n\nAlways exploring new tools and frameworks.\n\n\n\n\n\nHere are some areas I’m working on:\nCheck out my GitHub\n\n\n\n\nYou can connect with me through:\n- [Phone Number]- +1(617)-849-4170\n- [Email Me]- mishaaal@bu.edu\n\nSkills\n\nimport matplotlib.pyplot as plt\n\nskills = ['Python', 'SQL', 'Excel', 'Power BI', 'R']\nproficiency = [8, 7, 9, 8, 6]\n\nplt.figure(figsize=(10, 5))\nplt.barh(skills, proficiency, color='steelblue')\nplt.xlabel('Proficiency (out of 10)')\nplt.title('Technical Skills')\nplt.xlim(0, 10)\nplt.tight_layout()\nplt.show()"
+    "text": "Welcome to my Quarto website.\n\n\n\n\nPassionate about technology and learning.\n\nInterested in data science, AI, and web development.\n\nAlways exploring new tools and frameworks.\n\n\n\n\n\nHere are some areas I’m working on:\nCheck out my GitHub\n\n\n\n\nYou can connect with me through:\n- [Phone Number]- +1(617)-849-4170\n- [Email Me]- mishaaal@bu.edu\n\nSkills"
   },
   {
     "objectID": "index.html#about-me",
@@ -32,6 +32,6 @@
     "href": "index.html#contact",
     "title": "Welcome to My Website",
     "section": "",
-    "text": "You can connect with me through:\n- [Phone Number]- +1(617)-849-4170\n- [Email Me]- mishaaal@bu.edu\n\nSkills\n\nimport matplotlib.pyplot as plt\n\nskills = ['Python', 'SQL', 'Excel', 'Power BI', 'R']\nproficiency = [8, 7, 9, 8, 6]\n\nplt.figure(figsize=(10, 5))\nplt.barh(skills, proficiency, color='steelblue')\nplt.xlabel('Proficiency (out of 10)')\nplt.title('Technical Skills')\nplt.xlim(0, 10)\nplt.tight_layout()\nplt.show()"
+    "text": "You can connect with me through:\n- [Phone Number]- +1(617)-849-4170\n- [Email Me]- mishaaal@bu.edu\n\nSkills"
   }
 ]
