@@ -38,6 +38,7 @@ You can connect with me through:
 ---
 Skills
 ```{python}
+#| echo: false
 import matplotlib.pyplot as plt
 
 skills = ['Python', 'SQL', 'Excel', 'Power BI', 'R']

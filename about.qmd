@@ -1,9 +1,14 @@
 ---
 title: "About"
+format:
+  html:
+    theme: journal
+    toc: true
 ---
 Education and Career timeline
 
 ```{python}
+#| echo: false
 import pandas as pd
 
 timeline = pd.DataFrame({
@@ -17,10 +22,11 @@ timeline
 Languages Proficiency Level
 
 ```{python}
+#| echo: false
 import matplotlib.pyplot as plt
 
 languages = ['English', 'Hindi', 'Malayalam', 'Tamil', 'Arabic', 'Japanese']
-levels = [5, 5, 5, 5, 2, 2]  # Fluent=5, Basic=2
+levels = [5, 5, 5, 5, 2, 2]
 
 plt.figure(figsize=(8, 6))
 plt.pie(levels, labels=languages, autopct='%1.0f%%', startangle=90)
