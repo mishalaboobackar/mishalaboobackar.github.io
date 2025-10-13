@@ -1,7 +1,7 @@
 ---
 title: "Welcome to My Website"
 author: "Mishal Aboobackar Manalody"
-date: "`r Sys.Date()`"
+date: today
 format:
   html:
     theme: journal
@@ -42,7 +42,7 @@ Skills
 import matplotlib.pyplot as plt
 
 skills = ['Python', 'SQL', 'Excel', 'Power BI', 'R']
-proficiency = [8, 7, 9, 8, 6]
+proficiency = [7, 5, 8, 8, 6]
 
 plt.figure(figsize=(10, 5))
 plt.barh(skills, proficiency, color='steelblue')

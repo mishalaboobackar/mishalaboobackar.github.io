@@ -24,12 +24,15 @@ Languages Proficiency Level
 ```{python}
 #| echo: false
 import matplotlib.pyplot as plt
-
+print("Scale 1–5, where 5 = fluent, 1 = beginner")
 languages = ['English', 'Hindi', 'Malayalam', 'Tamil', 'Arabic', 'Japanese']
-levels = [5, 5, 5, 5, 2, 2]
+levels = [5, 4, 5, 3, 2, 1]   
 
-plt.figure(figsize=(8, 6))
-plt.pie(levels, labels=languages, autopct='%1.0f%%', startangle=90)
-plt.title('Language Proficiency Distribution')
+plt.figure(figsize=(8, 5))
+plt.barh(languages, levels, color='skyblue')
+plt.xlabel('Proficiency Level (1 = Beginner, 5 = Fluent)')
+plt.title('Language Proficiency Levels')
+plt.xlim(0, 5)
+plt.grid(axis='x', linestyle='--', alpha=0.7)
 plt.show()
 ```
