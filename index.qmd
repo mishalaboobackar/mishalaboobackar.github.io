@@ -26,8 +26,6 @@ format:
   html:
     toc: true
 ---
-![](./mishalaboobackar.github.io/images/websitephoto.jpg)
-
 
 ## 👋 About Me
 
@@ -62,5 +60,51 @@ I am particularly interested in roles that allow me to combine my technical skil
 - 📚 Continuous learning and skill development
 - 🤝 Networking and building professional relationships
 - 💻 Exploring emerging technologies
+
+---
+
+## 🛠️ Technical Skills
+
+| Skill | Proficiency |
+|-------|-------------|
+| Python | ⭐⭐⭐⭐⭐⭐⭐ 7/10 |
+| SQL | ⭐⭐⭐⭐⭐ 5/10 |
+| Excel | ⭐⭐⭐⭐⭐⭐⭐⭐ 8/10 |
+| Power BI | ⭐⭐⭐⭐⭐⭐⭐⭐ 8/10 |
+| R | ⭐⭐⭐⭐⭐⭐ 6/10 |
+| Data Visualization | ⭐⭐⭐⭐⭐⭐⭐ 7/10 |
+
+---
+
+## 🌍 Languages
+
+| Language | Proficiency |
+|----------|-------------|
+| English | Fluent |
+| Malayalam | Fluent |
+| Hindi | Advanced |
+| Tamil | Intermediate |
+| Arabic | Elementary |
+| Japanese | Beginner |
+
+---
+
+## 🎓 Education
+
+| Degree | Institution | Period |
+|--------|-------------|--------|
+| MS Business Analytics | Boston University | 2024 - 2026 |
+| BTech | SRM University | 2020 - 2024 |
+
+---
+
+## 📫 Let's Connect!
+
+I'm always open to discussing new opportunities, collaborations, or just having a chat about data and technology. Feel free to reach out through the [Contact](contact.qmd) page or connect with me directly:
+
+- 📧 **Email**: [mishaaal@bu.edu](mailto:mishaaal@bu.edu)
+- 📱 **Phone**: +1 (617) 849-4170
+- 💼 **LinkedIn**: [mishal-aboobackar](https://linkedin.com/in/mishal-aboobackar-5776bb291)
+- 🐙 **GitHub**: [mishalaboobackar](https://github.com/mishalaboobackar)
 
 

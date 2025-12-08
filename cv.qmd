@@ -31,30 +31,10 @@ My expertise spans across:
 
 ## 🎓 Education
 
-```{python}
-#| echo: false
-import pandas as pd
-from IPython.display import display
-
-education = pd.DataFrame({
-    'Degree': ['MS Business Analytics', 'BTech'],
-    'Institution': ['Boston University', 'SRM University'],
-    'Location': ['Boston, MA, USA', 'Chennai, India'],
-    'Period': ['2024 - 2026', '2020 - 2024'],
-    'Status': ['In Progress', 'Completed']
-})
-
-styled = education.style.set_properties(**{
-    'background-color': '#f8f9fa',
-    'border': '1px solid #dee2e6',
-    'padding': '12px',
-    'text-align': 'left'
-}).set_table_styles([
-    {'selector': 'th', 'props': [('background-color', '#2c3e50'), ('color', 'white'), ('padding', '12px')]}
-]).hide(axis='index')
-
-display(styled)
-```
+| Degree | Institution | Location | Period | Status |
+|--------|-------------|----------|--------|--------|
+| MS Business Analytics | Boston University | Boston, MA, USA | 2024 - 2026 | In Progress |
+| BTech | SRM University | Chennai, India | 2020 - 2024 | Completed |
 
 ---
 
@@ -80,44 +60,12 @@ display(styled)
 
 ## 🛠️ Technical Skills
 
-```{python}
-#| echo: false
-#| fig-align: center
-import matplotlib.pyplot as plt
-import numpy as np
-
-categories = ['Programming', 'Data Tools', 'Visualization', 'Soft Skills']
-skills_data = {
-    'Programming': ['Python', 'R', 'SQL'],
-    'Data Tools': ['Excel', 'Power BI', 'Pandas'],
-    'Visualization': ['Matplotlib', 'Seaborn', 'Power BI'],
-    'Soft Skills': ['Leadership', 'Communication', 'Problem Solving']
-}
-
-fig, ax = plt.subplots(figsize=(10, 6))
-
-colors = ['#3498db', '#2ecc71', '#e74c3c', '#f39c12']
-x = np.arange(len(categories))
-width = 0.6
-
-bars = ax.bar(x, [3, 3, 3, 3], width, color=colors, edgecolor='white', linewidth=2)
-
-ax.set_ylabel('Number of Skills', fontsize=12, fontweight='bold')
-ax.set_title('Skills by Category', fontsize=14, fontweight='bold', pad=15)
-ax.set_xticks(x)
-ax.set_xticklabels(categories, fontsize=11)
-ax.set_ylim(0, 4)
-
-# Add skill names on bars
-for i, (cat, skills) in enumerate(skills_data.items()):
-    skill_text = '\n'.join(skills)
-    ax.text(i, 1.5, skill_text, ha='center', va='center', fontsize=9, fontweight='bold', color='white')
-
-ax.spines['top'].set_visible(False)
-ax.spines['right'].set_visible(False)
-plt.tight_layout()
-plt.show()
-```
+| Category | Skills |
+|----------|--------|
+| **Programming** | Python, R, SQL |
+| **Data Tools** | Excel, Power BI, Pandas |
+| **Visualization** | Matplotlib, Seaborn, Power BI |
+| **Soft Skills** | Leadership, Communication, Problem Solving |
 
 ---
 
@@ -157,4 +105,12 @@ plt.show()
 - Cross-cultural Communication
 :::
 :::
+
+---
+
+## 📥 Download Full CV
+
+For a comprehensive view of my qualifications, experience, and achievements:
+
+[📄 Download CV (PDF)](mishalcv.pdf){.btn .btn-primary .btn-lg}
 
