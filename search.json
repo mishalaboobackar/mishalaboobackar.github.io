@@ -1,37 +1,219 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to My Website",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "Welcome to my Quarto website.\n\n\n\n\nPassionate about technology and learning.\n\nInterested in data science, AI, and web development.\n\nAlways exploring new tools and frameworks.\n\n\n\n\n\nHere are some areas I’m working on:\nCheck out my GitHub\n\n\n\n\nYou can connect with me through:\n- Phone Number\n- Email Me"
+    "text": "Here’s a showcase of my academic and personal projects that demonstrate my skills in data science, analytics, and web development."
   },
   {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Welcome to My Website",
+    "objectID": "projects.html#my-projects",
+    "href": "projects.html#my-projects",
+    "title": "Projects",
     "section": "",
-    "text": "Passionate about technology and learning.\n\nInterested in data science, AI, and web development.\n\nAlways exploring new tools and frameworks."
+    "text": "Here’s a showcase of my academic and personal projects that demonstrate my skills in data science, analytics, and web development."
   },
   {
-    "objectID": "index.html#projects",
-    "href": "index.html#projects",
-    "title": "Welcome to My Website",
-    "section": "",
-    "text": "Here are some areas I’m working on:\nCheck out my GitHub"
+    "objectID": "projects.html#academic-projects",
+    "href": "projects.html#academic-projects",
+    "title": "Projects",
+    "section": "🎓 Academic Projects",
+    "text": "🎓 Academic Projects\n\n1. Portfolio Website\nTechnologies: Quarto, Python, HTML/CSS, GitHub Pages\nThis personal portfolio website showcasing my skills, projects, and professional background. Built using Quarto framework with Python visualizations and deployed on GitHub Pages.\nKey Features:\n\nInteractive data visualizations\nResponsive design\nProfessional layout with multiple pages\n\nView on GitHub\n\n\n\n2. Data Analysis Projects"
   },
   {
-    "objectID": "index.html#contact",
-    "href": "index.html#contact",
-    "title": "Welcome to My Website",
+    "objectID": "projects.html#personal-projects",
+    "href": "projects.html#personal-projects",
+    "title": "Projects",
+    "section": "💼 Personal Projects",
+    "text": "💼 Personal Projects\n\n3. Business Intelligence Dashboard\nTechnologies: Power BI, Excel, SQL\nCreated comprehensive dashboards for business analytics, featuring:\n\nSales trend analysis\nCustomer segmentation\nKPI tracking and reporting\nInteractive filtering capabilities\n\n\n\n\n4. Python Data Analysis\nTechnologies: Python, Pandas, Matplotlib, Seaborn\nVarious data analysis projects including:\n\nExploratory Data Analysis (EDA)\nStatistical analysis and hypothesis testing\nData cleaning and preprocessing\nVisualization of insights"
+  },
+  {
+    "objectID": "projects.html#technical-skills-used",
+    "href": "projects.html#technical-skills-used",
+    "title": "Projects",
+    "section": "🛠️ Technical Skills Used",
+    "text": "🛠️ Technical Skills Used"
+  },
+  {
+    "objectID": "projects.html#future-projects",
+    "href": "projects.html#future-projects",
+    "title": "Projects",
+    "section": "🚀 Future Projects",
+    "text": "🚀 Future Projects\nI’m currently working on and planning:\n\nMachine Learning Models: Predictive analytics for business use cases\nWeb Applications: Interactive data apps using Streamlit/Dash\nBig Data Analytics: Working with large datasets using cloud platforms\nAI/NLP Projects: Text analysis and natural language processing"
+  },
+  {
+    "objectID": "projects.html#github-repository",
+    "href": "projects.html#github-repository",
+    "title": "Projects",
+    "section": "📁 GitHub Repository",
+    "text": "📁 GitHub Repository\nFor more projects and code samples, visit my GitHub profile:\n🔗 github.com/mishalaboobackar"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
     "section": "",
-    "text": "You can connect with me through:\n- Phone Number\n- Email Me"
+    "text": "Download my complete curriculum vitae to learn more about my professional background, education, and experience.\n\n\n\n\n\n\nTipDownload CV\n\n\n\n📥 Download CV (PDF)"
+  },
+  {
+    "objectID": "cv.html#my-cv",
+    "href": "cv.html#my-cv",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Download my complete curriculum vitae to learn more about my professional background, education, and experience.\n\n\n\n\n\n\nTipDownload CV\n\n\n\n📥 Download CV (PDF)"
+  },
+  {
+    "objectID": "cv.html#professional-summary",
+    "href": "cv.html#professional-summary",
+    "title": "Curriculum Vitae",
+    "section": "👤 Professional Summary",
+    "text": "👤 Professional Summary\nI am a dedicated MS Business Analytics candidate at Boston University with a strong foundation in technology and data analysis. With hands-on experience in operations management and human resources, I bring a unique blend of technical skills and business acumen to drive data-informed decision-making.\nMy expertise spans across:\n\nData Analysis & Visualization using Python, R, and Power BI\nBusiness Intelligence and dashboard development\nOperations Management with proven leadership experience\nCross-functional Communication in multilingual environments"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "🎓 Education",
+    "text": "🎓 Education\n\n\n\n\n\n\n\nDegree\nInstitution\nLocation\nPeriod\nStatus\n\n\n\n\nMS Business Analytics\nBoston University\nBoston, MA, USA\n2024 - 2026\nIn Progress\n\n\nBTech\nSRM University\nChennai, India\n2020 - 2024\nCompleted"
+  },
+  {
+    "objectID": "cv.html#professional-experience",
+    "href": "cv.html#professional-experience",
+    "title": "Curriculum Vitae",
+    "section": "💼 Professional Experience",
+    "text": "💼 Professional Experience\n\nOperations Head\nG-TEC Computer Education | 2023 - 2025\n\nLed operational strategies to improve organizational efficiency\nManaged cross-functional teams and coordinated daily activities\nImplemented process improvements resulting in enhanced productivity\nDeveloped and maintained key performance indicators (KPIs)\n\n\n\nHR Intern\nUSDC | July - August 2023\n\nAssisted in recruitment and onboarding processes\nSupported HR administrative functions and documentation\nParticipated in employee engagement initiatives\nGained exposure to HR analytics and reporting"
+  },
+  {
+    "objectID": "cv.html#technical-skills",
+    "href": "cv.html#technical-skills",
+    "title": "Curriculum Vitae",
+    "section": "🛠️ Technical Skills",
+    "text": "🛠️ Technical Skills"
+  },
+  {
+    "objectID": "cv.html#languages",
+    "href": "cv.html#languages",
+    "title": "Curriculum Vitae",
+    "section": "🌍 Languages",
+    "text": "🌍 Languages\n\n\n\nLanguage\nProficiency\n\n\n\n\nEnglish\nFluent\n\n\nMalayalam\nFluent\n\n\nHindi\nAdvanced\n\n\nTamil\nIntermediate\n\n\nArabic\nElementary\n\n\nJapanese\nBeginner"
+  },
+  {
+    "objectID": "cv.html#key-competencies",
+    "href": "cv.html#key-competencies",
+    "title": "Curriculum Vitae",
+    "section": "🏆 Key Competencies",
+    "text": "🏆 Key Competencies\n\n\nTechnical\n\nData Analysis & Mining\nStatistical Modeling\nDatabase Management\nBusiness Intelligence\nWeb Development\n\n\n\nProfessional\n\nTeam Leadership\nProject Management\nStrategic Planning\nProblem Solving\nCross-cultural Communication"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "About this site"
+    "text": "I’m currently pursuing my Master of Science in Business Analytics at Boston University, building on my strong foundation from my Bachelor’s degree in Technology from SRM University.\n\n\n\n\n\n\n\nPeriod\nInstitution\nDegree\nLocation\n\n\n\n\n2024 - 2026\nBoston University\nMS Business Analytics\nBoston, MA\n\n\n2020 - 2024\nSRM University\nBTech\nIndia"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m currently pursuing my Master of Science in Business Analytics at Boston University, building on my strong foundation from my Bachelor’s degree in Technology from SRM University.\n\n\n\n\n\n\n\nPeriod\nInstitution\nDegree\nLocation\n\n\n\n\n2024 - 2026\nBoston University\nMS Business Analytics\nBoston, MA\n\n\n2020 - 2024\nSRM University\nBTech\nIndia"
+  },
+  {
+    "objectID": "about.html#professional-experience",
+    "href": "about.html#professional-experience",
+    "title": "About Me",
+    "section": "💼 Professional Experience",
+    "text": "💼 Professional Experience\n\n\n\n\n\n\n\nPeriod\nRole\nCompany\nType\n\n\n\n\n2023 - 2025\nOperations Head\nG-TEC Computer Education\nFull-time\n\n\n2023 (Jul - Aug)\nHR Intern\nUSDC\nInternship"
+  },
+  {
+    "objectID": "about.html#languages",
+    "href": "about.html#languages",
+    "title": "About Me",
+    "section": "🌍 Languages",
+    "text": "🌍 Languages\nI’m multilingual with proficiency in several languages, which helps me communicate and collaborate across diverse teams.\n\n\nScale: 1 = Beginner, 5 = Fluent"
+  },
+  {
+    "objectID": "about.html#interests-hobbies",
+    "href": "about.html#interests-hobbies",
+    "title": "About Me",
+    "section": "🎯 Interests & Hobbies",
+    "text": "🎯 Interests & Hobbies\n\n📊 Data Science & Analytics - Exploring patterns in data\n🤖 Artificial Intelligence - Building intelligent systems\n💻 Web Development - Creating interactive experiences\n📚 Continuous Learning - Always exploring new technologies\n🌐 Cross-cultural Communication - Connecting with people globally"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I’m always excited to connect with fellow professionals, potential collaborators, and anyone interested in data science and analytics. Feel free to reach out!"
+  },
+  {
+    "objectID": "contact.html#get-in-touch",
+    "href": "contact.html#get-in-touch",
+    "title": "Contact",
+    "section": "",
+    "text": "I’m always excited to connect with fellow professionals, potential collaborators, and anyone interested in data science and analytics. Feel free to reach out!"
+  },
+  {
+    "objectID": "contact.html#contact-information",
+    "href": "contact.html#contact-information",
+    "title": "Contact",
+    "section": "📧 Contact Information",
+    "text": "📧 Contact Information\n\n\nDirect Contact\n\n\n\n📧 Email\nmishaaal@bu.edu\n\n\n📱 Phone\n+1 (617) 849-4170\n\n\n📍 Location\nBoston, MA, USA\n\n\n\n\n\nProfessional Networks\n\n\n\n💼 LinkedIn\nmishal-aboobackar\n\n\n🐙 GitHub\nmishalaboobackar"
+  },
+  {
+    "objectID": "contact.html#lets-connect",
+    "href": "contact.html#lets-connect",
+    "title": "Contact",
+    "section": "🤝 Let’s Connect",
+    "text": "🤝 Let’s Connect\nI’m open to:\n\n💼 Job Opportunities - Data Analytics, Business Intelligence, Data Science roles\n🤝 Collaborations - Open source projects, research collaborations\n📚 Mentorship - Learning from experienced professionals\n💬 Networking - Connecting with fellow analytics enthusiasts"
+  },
+  {
+    "objectID": "contact.html#quick-links",
+    "href": "contact.html#quick-links",
+    "title": "Contact",
+    "section": "🔗 Quick Links",
+    "text": "🔗 Quick Links\n\n📧 Email Me 💼 LinkedIn 🐙 GitHub"
+  },
+  {
+    "objectID": "contact.html#location",
+    "href": "contact.html#location",
+    "title": "Contact",
+    "section": "📍 Location",
+    "text": "📍 Location\nCurrently based in Boston, Massachusetts, USA while pursuing my MS in Business Analytics at Boston University."
+  },
+  {
+    "objectID": "contact.html#response-time",
+    "href": "contact.html#response-time",
+    "title": "Contact",
+    "section": "⏰ Response Time",
+    "text": "⏰ Response Time\nI typically respond to emails within 24-48 hours. For urgent matters, please mention “URGENT” in your email subject line."
+  },
+  {
+    "objectID": "contact.html#preferred-contact-method",
+    "href": "contact.html#preferred-contact-method",
+    "title": "Contact",
+    "section": "💡 Preferred Contact Method",
+    "text": "💡 Preferred Contact Method\nThe best way to reach me is via email at mishaaal@bu.edu. I check my inbox regularly and will get back to you as soon as possible.\n\n\n\n\n\n\n\nNoteLooking Forward to Hearing From You!\n\n\n\nWhether you have a question, want to discuss a potential opportunity, or just want to say hello – don’t hesitate to reach out!"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Mishal Aboobackar Manalody",
+    "section": "👋 About Me",
+    "text": "👋 About Me\nHello! I’m Mishal Aboobackar Manalody, a passionate MS Business Analytics student at Boston University. I’m dedicated to transforming data into actionable insights and leveraging technology to solve real-world business problems.\nWith a background in technology and hands-on experience in operations management, I bring a unique perspective that bridges technical expertise with business acumen."
+  },
+  {
+    "objectID": "index.html#career-goals",
+    "href": "index.html#career-goals",
+    "title": "Mishal Aboobackar Manalody",
+    "section": "🎯 Career Goals",
+    "text": "🎯 Career Goals\nMy professional aspirations include:\n\nData Scientist/Analyst: Applying statistical methods and machine learning to derive meaningful insights from complex datasets\nBusiness Intelligence Professional: Building data-driven solutions that empower organizations to make informed decisions\nAnalytics Consultant: Helping businesses leverage data analytics for strategic growth and operational efficiency\n\nI am particularly interested in roles that allow me to combine my technical skills with my understanding of business operations."
+  },
+  {
+    "objectID": "index.html#interests",
+    "href": "index.html#interests",
+    "title": "Mishal Aboobackar Manalody",
+    "section": "💡 Interests",
+    "text": "💡 Interests\n\nProfessional Interests\n\nData Science & Analytics: Exploring patterns and trends in data to drive decision-making\nMachine Learning & AI: Building predictive models and intelligent systems\nBusiness Intelligence: Creating dashboards and reports that tell compelling data stories\nWeb Development: Developing interactive applications and data products\n\n\n\nPersonal Interests\n\n🌍 Learning new languages and cultures\n📚 Continuous learning and skill development\n🤝 Networking and building professional relationships\n💻 Exploring emerging technologies"
   }
 ]
