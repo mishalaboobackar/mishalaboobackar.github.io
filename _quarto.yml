@@ -1,21 +1,37 @@
 project:
   type: website
+  output-dir: _site
 
 website:
   title: "Mishal Aboobackar Manalody"
+  description: "MS Analytics Student at Boston University | Data Science Enthusiast"
   navbar:
+    background: primary
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: About
+      - href: projects.qmd
+        text: Projects
+      - href: cv.qmd
+        text: CV
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: github
+        href: https://github.com/mishalaboobackar
+      - icon: linkedin
+        href: https://linkedin.com/in/mishal-aboobackar-5776bb291
+      - icon: envelope
+        href: mailto:mishaaal@bu.edu
+  page-footer:
+    center: "© 2025 Mishal Aboobackar Manalody | Built with Quarto"
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: flatly
     css: styles.css
     toc: true
+    page-layout: full
 
 
 

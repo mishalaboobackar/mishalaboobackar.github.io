@@ -1,38 +1,104 @@
 ---
-title: "About"
+title: "About Me"
 format:
   html:
-    theme: journal
     toc: true
 ---
-Education and Career timeline
+
+## 🎓 Education
+
+I'm currently pursuing my **Master of Science in Business Analytics** at **Boston University**, building on my strong foundation from my Bachelor's degree in Technology from SRM University.
 
 ```{python}
 #| echo: false
 import pandas as pd
+from IPython.display import display, HTML
 
 timeline = pd.DataFrame({
-    'Period': ['2020-2024', '2023 (Jul-Aug)', '2023-2025', '2024-2026'],
-    'Activity': ['BTech - SRM University', 'HR Intern - USDC', 'Operations Head - G-TEC', 'MS Analytics - BU'],
-    'Type': ['Education', 'Work', 'Work', 'Education']
+    'Period': ['2024 - 2026', '2020 - 2024'],
+    'Institution': ['Boston University', 'SRM University'],
+    'Degree': ['MS Business Analytics', 'BTech'],
+    'Location': ['Boston, MA', 'India']
 })
-timeline
+
+styled_table = timeline.style.set_properties(**{
+    'background-color': '#f8f9fa',
+    'border-color': '#dee2e6',
+    'padding': '10px'
+}).hide(axis='index')
+
+display(styled_table)
 ```
+
 ---
-Languages Proficiency Level
+
+## 💼 Professional Experience
 
 ```{python}
 #| echo: false
+import pandas as pd
+from IPython.display import display
+
+experience = pd.DataFrame({
+    'Period': ['2023 - 2025', '2023 (Jul - Aug)'],
+    'Role': ['Operations Head', 'HR Intern'],
+    'Company': ['G-TEC Computer Education', 'USDC'],
+    'Type': ['Full-time', 'Internship']
+})
+
+styled_exp = experience.style.set_properties(**{
+    'background-color': '#f8f9fa',
+    'border-color': '#dee2e6',
+    'padding': '10px'
+}).hide(axis='index')
+
+display(styled_exp)
+```
+
+---
+
+## 🌍 Languages
+
+I'm multilingual with proficiency in several languages, which helps me communicate and collaborate across diverse teams.
+
+```{python}
+#| echo: false
+#| fig-align: center
 import matplotlib.pyplot as plt
-print("Scale 1–5, where 5 = fluent, 1 = beginner")
+
+print("Scale: 1 = Beginner, 5 = Fluent")
 languages = ['English', 'Hindi', 'Malayalam', 'Tamil', 'Arabic', 'Japanese']
 levels = [5, 4, 5, 3, 2, 1]   
 
-plt.figure(figsize=(8, 5))
-plt.barh(languages, levels, color='skyblue')
-plt.xlabel('Proficiency Level (1 = Beginner, 5 = Fluent)')
-plt.title('Language Proficiency Levels')
-plt.xlim(0, 5)
-plt.grid(axis='x', linestyle='--', alpha=0.7)
+colors = ['#27ae60', '#2980b9', '#8e44ad', '#e67e22', '#c0392b', '#16a085']
+
+fig, ax = plt.subplots(figsize=(10, 5))
+bars = ax.barh(languages, levels, color=colors, edgecolor='white', linewidth=1.5)
+
+ax.set_xlabel('Proficiency Level', fontsize=12, fontweight='bold')
+ax.set_title('Language Proficiency', fontsize=14, fontweight='bold', pad=15)
+ax.set_xlim(0, 5)
+
+for bar, level in zip(bars, levels):
+    labels = {1: 'Beginner', 2: 'Elementary', 3: 'Intermediate', 4: 'Advanced', 5: 'Fluent'}
+    ax.text(level + 0.1, bar.get_y() + bar.get_height()/2, labels.get(level, ''), 
+            va='center', fontsize=10, fontweight='bold')
+
+ax.spines['top'].set_visible(False)
+ax.spines['right'].set_visible(False)
+ax.set_xticks([1, 2, 3, 4, 5])
+plt.tight_layout()
 plt.show()
 ```
+
+---
+
+## 🎯 Interests & Hobbies
+
+- 📊 **Data Science & Analytics** - Exploring patterns in data
+- 🤖 **Artificial Intelligence** - Building intelligent systems
+- 💻 **Web Development** - Creating interactive experiences
+- 📚 **Continuous Learning** - Always exploring new technologies
+- 🌐 **Cross-cultural Communication** - Connecting with people globally
+
+---

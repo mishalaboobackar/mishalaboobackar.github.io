@@ -1,0 +1,160 @@
+---
+title: "Curriculum Vitae"
+format:
+  html:
+    toc: true
+---
+
+## 📄 My CV
+
+Download my complete curriculum vitae to learn more about my professional background, education, and experience.
+
+::: {.callout-tip}
+## Download CV
+[📥 Download CV (PDF)](mishalcv.pdf){.btn .btn-primary .btn-lg}
+:::
+
+---
+
+## 👤 Professional Summary
+
+I am a dedicated **MS Business Analytics** candidate at **Boston University** with a strong foundation in technology and data analysis. With hands-on experience in operations management and human resources, I bring a unique blend of technical skills and business acumen to drive data-informed decision-making.
+
+My expertise spans across:
+
+- **Data Analysis & Visualization** using Python, R, and Power BI
+- **Business Intelligence** and dashboard development
+- **Operations Management** with proven leadership experience
+- **Cross-functional Communication** in multilingual environments
+
+---
+
+## 🎓 Education
+
+```{python}
+#| echo: false
+import pandas as pd
+from IPython.display import display
+
+education = pd.DataFrame({
+    'Degree': ['MS Business Analytics', 'BTech'],
+    'Institution': ['Boston University', 'SRM University'],
+    'Location': ['Boston, MA, USA', 'Chennai, India'],
+    'Period': ['2024 - 2026', '2020 - 2024'],
+    'Status': ['In Progress', 'Completed']
+})
+
+styled = education.style.set_properties(**{
+    'background-color': '#f8f9fa',
+    'border': '1px solid #dee2e6',
+    'padding': '12px',
+    'text-align': 'left'
+}).set_table_styles([
+    {'selector': 'th', 'props': [('background-color', '#2c3e50'), ('color', 'white'), ('padding', '12px')]}
+]).hide(axis='index')
+
+display(styled)
+```
+
+---
+
+## 💼 Professional Experience
+
+### Operations Head
+**G-TEC Computer Education** | 2023 - 2025
+
+- Led operational strategies to improve organizational efficiency
+- Managed cross-functional teams and coordinated daily activities
+- Implemented process improvements resulting in enhanced productivity
+- Developed and maintained key performance indicators (KPIs)
+
+### HR Intern
+**USDC** | July - August 2023
+
+- Assisted in recruitment and onboarding processes
+- Supported HR administrative functions and documentation
+- Participated in employee engagement initiatives
+- Gained exposure to HR analytics and reporting
+
+---
+
+## 🛠️ Technical Skills
+
+```{python}
+#| echo: false
+#| fig-align: center
+import matplotlib.pyplot as plt
+import numpy as np
+
+categories = ['Programming', 'Data Tools', 'Visualization', 'Soft Skills']
+skills_data = {
+    'Programming': ['Python', 'R', 'SQL'],
+    'Data Tools': ['Excel', 'Power BI', 'Pandas'],
+    'Visualization': ['Matplotlib', 'Seaborn', 'Power BI'],
+    'Soft Skills': ['Leadership', 'Communication', 'Problem Solving']
+}
+
+fig, ax = plt.subplots(figsize=(10, 6))
+
+colors = ['#3498db', '#2ecc71', '#e74c3c', '#f39c12']
+x = np.arange(len(categories))
+width = 0.6
+
+bars = ax.bar(x, [3, 3, 3, 3], width, color=colors, edgecolor='white', linewidth=2)
+
+ax.set_ylabel('Number of Skills', fontsize=12, fontweight='bold')
+ax.set_title('Skills by Category', fontsize=14, fontweight='bold', pad=15)
+ax.set_xticks(x)
+ax.set_xticklabels(categories, fontsize=11)
+ax.set_ylim(0, 4)
+
+# Add skill names on bars
+for i, (cat, skills) in enumerate(skills_data.items()):
+    skill_text = '\n'.join(skills)
+    ax.text(i, 1.5, skill_text, ha='center', va='center', fontsize=9, fontweight='bold', color='white')
+
+ax.spines['top'].set_visible(False)
+ax.spines['right'].set_visible(False)
+plt.tight_layout()
+plt.show()
+```
+
+---
+
+## 🌍 Languages
+
+| Language | Proficiency |
+|----------|-------------|
+| English | Fluent |
+| Malayalam | Fluent |
+| Hindi | Advanced |
+| Tamil | Intermediate |
+| Arabic | Elementary |
+| Japanese | Beginner |
+
+---
+
+## 🏆 Key Competencies
+
+::: {.grid}
+::: {.g-col-6}
+**Technical**
+
+- Data Analysis & Mining
+- Statistical Modeling
+- Database Management
+- Business Intelligence
+- Web Development
+:::
+
+::: {.g-col-6}
+**Professional**
+
+- Team Leadership
+- Project Management
+- Strategic Planning
+- Problem Solving
+- Cross-cultural Communication
+:::
+:::
+

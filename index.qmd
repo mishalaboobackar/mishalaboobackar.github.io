@@ -1,54 +1,66 @@
 ---
-title: "Welcome to My Website"
-author: "Mishal Aboobackar Manalody"
-date: today
+title: "Mishal Aboobackar Manalody"
+subtitle: "MS Business Analytics Candidate | Data Science Enthusiast"
+image: images/websitephoto.jpg
+about:
+  template: trestles
+  image-width: 15em
+  image-shape: round
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/mishalaboobackar
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/mishal-aboobackar-5776bb291
+    - icon: envelope
+      text: Email
+      href: mailto:mishaaal@bu.edu
+    - icon: telephone
+      text: +1 (617) 849-4170
+      href: tel:+16178494170
+    - icon: file-earmark-pdf
+      text: CV
+      href: mishalcv.pdf
 format:
   html:
-    theme: journal
     toc: true
 ---
+![](./mishalaboobackar.github.io/images/websitephoto.jpg)
 
-# Hello, World!  
-Welcome to my Quarto website.  
 
----
+## 👋 About Me
 
-## About Me
-- Passionate about **technology** and **learning**.  
-- Interested in **data science**, **AI**, and **web development**.  
-- Always exploring new tools and frameworks.  
+Hello! I'm **Mishal Aboobackar Manalody**, a passionate **MS Business Analytics** student at **Boston University**. I'm dedicated to transforming data into actionable insights and leveraging technology to solve real-world business problems.
 
+With a background in technology and hands-on experience in operations management, I bring a unique perspective that bridges technical expertise with business acumen.
 
 ---
 
-## Projects
-Here are some areas I’m working on:  
-   
-[Check out my GitHub](https://github.com/mishalaboobackar)
+## 🎯 Career Goals
 
+My professional aspirations include:
 
+- **Data Scientist/Analyst**: Applying statistical methods and machine learning to derive meaningful insights from complex datasets
+- **Business Intelligence Professional**: Building data-driven solutions that empower organizations to make informed decisions
+- **Analytics Consultant**: Helping businesses leverage data analytics for strategic growth and operational efficiency
 
----
-
-## Contact
-You can connect with me through:  
-- [Phone Number]- +1(617)-849-4170   
-- [Email Me]- mishaaal@bu.edu  
+I am particularly interested in roles that allow me to combine my technical skills with my understanding of business operations.
 
 ---
-Skills
-```{python}
-#| echo: false
-import matplotlib.pyplot as plt
 
-skills = ['Python', 'SQL', 'Excel', 'Power BI', 'R']
-proficiency = [7, 5, 8, 8, 6]
+## 💡 Interests
 
-plt.figure(figsize=(10, 5))
-plt.barh(skills, proficiency, color='steelblue')
-plt.xlabel('Proficiency (out of 10)')
-plt.title('Technical Skills')
-plt.xlim(0, 10)
-plt.tight_layout()
-plt.show()
-```
+### Professional Interests
+- **Data Science & Analytics**: Exploring patterns and trends in data to drive decision-making
+- **Machine Learning & AI**: Building predictive models and intelligent systems
+- **Business Intelligence**: Creating dashboards and reports that tell compelling data stories
+- **Web Development**: Developing interactive applications and data products
+
+### Personal Interests
+- 🌍 Learning new languages and cultures
+- 📚 Continuous learning and skill development
+- 🤝 Networking and building professional relationships
+- 💻 Exploring emerging technologies
+
+
