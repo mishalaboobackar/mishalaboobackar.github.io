@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Mishal Aboobackar Manalody"
-  description: "MS Analytics Student at Boston University | Data Science Enthusiast"
+  description: "MS Business Analytics candidate at Boston University | Operations, analytics, and BI"
   navbar:
     background: primary
     left:
@@ -24,7 +24,7 @@ website:
       - icon: envelope
         href: mailto:mishaaal@bu.edu
   page-footer:
-    center: "© 2025 Mishal Aboobackar Manalody | Built with Quarto"
+    center: "© 2026 Mishal Aboobackar Manalody | Built with Quarto"
 
 format:
   html:

@@ -5,9 +5,15 @@ format:
     toc: true
 ---
 
+## 👋 Professional Snapshot
+
+I’m currently pursuing my **Master of Science in Business Analytics** at **Boston University**, building on my **BTech from SRM University** and experience in operations and human resources.
+
+I use this page to summarize the same background that appears in my updated resume.
+
 ## 🎓 Education
 
-I'm currently pursuing my **Master of Science in Business Analytics** at **Boston University**, building on my strong foundation from my Bachelor's degree in Technology from SRM University.
+I'm currently pursuing my **Master of Science in Business Analytics** at **Boston University**, building on my strong foundation from my **BTech at SRM University**.
 
 ```{python}
 #| echo: false
@@ -57,6 +63,14 @@ display(styled_exp)
 
 ---
 
+## 🛠️ Core Skills
+
+- **Analytics tools**: Python, R, SQL, Excel, Power BI
+- **Data skills**: Data analysis, visualization, statistical modeling, database management
+- **Professional strengths**: Team leadership, project coordination, problem solving, communication
+
+---
+
 ## 🌍 Languages
 
 I'm multilingual with proficiency in several languages, which helps me communicate and collaborate across diverse teams.
@@ -98,7 +112,7 @@ plt.show()
 - 📊 **Data Science & Analytics** - Exploring patterns in data
 - 🤖 **Artificial Intelligence** - Building intelligent systems
 - 💻 **Web Development** - Creating interactive experiences
-- 📚 **Continuous Learning** - Always exploring new technologies
+- 📚 **Continuous Learning** - Always improving technical and business skills
 - 🌐 **Cross-cultural Communication** - Connecting with people globally
 
 ---

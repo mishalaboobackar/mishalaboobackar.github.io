@@ -1,6 +1,6 @@
 ---
 title: "Mishal Aboobackar Manalody"
-subtitle: "MS Business Analytics Candidate | Data Science Enthusiast"
+subtitle: "MS Business Analytics candidate | Operations and analytics background"
 image: images/websitephoto.jpg
 about:
   template: trestles
@@ -29,37 +29,36 @@ format:
 
 ## 👋 About Me
 
-Hello! I'm **Mishal Aboobackar Manalody**, a passionate **MS Business Analytics** student at **Boston University**. I'm dedicated to transforming data into actionable insights and leveraging technology to solve real-world business problems.
+I’m **Mishal Aboobackar Manalody**, an **MS Business Analytics** candidate at **Boston University** with a **BTech from SRM University**. I combine operations leadership, human resources exposure, and analytics training to turn data into practical business decisions.
 
-With a background in technology and hands-on experience in operations management, I bring a unique perspective that bridges technical expertise with business acumen.
+## 🎯 What I Bring
 
----
+- **Analytics and reporting** using Python, R, SQL, Excel, and Power BI
+- **Business operations experience** with KPI tracking, process improvement, and team coordination
+- **Cross-functional communication** across multilingual and multicultural environments
+- **Web and portfolio development** using Quarto, HTML/CSS, and GitHub Pages
 
-## 🎯 Career Goals
+## 📚 Education and Experience Snapshot
 
-My professional aspirations include:
+::: {.grid}
+::: {.g-col-6}
+### Education
 
-- **Data Scientist/Analyst**: Applying statistical methods and machine learning to derive meaningful insights from complex datasets
-- **Business Intelligence Professional**: Building data-driven solutions that empower organizations to make informed decisions
-- **Analytics Consultant**: Helping businesses leverage data analytics for strategic growth and operational efficiency
+- **Boston University** — MS Business Analytics, 2024–2026
+- **SRM University** — BTech, 2020–2024
+:::
 
-I am particularly interested in roles that allow me to combine my technical skills with my understanding of business operations.
+::: {.g-col-6}
+### Experience
 
----
+- **Operations Head** — G-TEC Computer Education, 2023–2025
+- **HR Intern** — USDC, Jul–Aug 2023
+:::
+:::
 
-## 💡 Interests
+## 💡 Current Focus
 
-### Professional Interests
-- **Data Science & Analytics**: Exploring patterns and trends in data to drive decision-making
-- **Machine Learning & AI**: Building predictive models and intelligent systems
-- **Business Intelligence**: Creating dashboards and reports that tell compelling data stories
-- **Web Development**: Developing interactive applications and data products
-
-### Personal Interests
-- 🌍 Learning new languages and cultures
-- 📚 Continuous learning and skill development
-- 🤝 Networking and building professional relationships
-- 💻 Exploring emerging technologies
+I am looking for opportunities in **data analytics**, **business intelligence**, and **data science** where I can contribute through clear analysis, strong execution, and a practical understanding of business needs.
 
 ---
 

@@ -18,13 +18,13 @@ Download my complete curriculum vitae to learn more about my professional backgr
 
 ## 👤 Professional Summary
 
-I am a dedicated **MS Business Analytics** candidate at **Boston University** with a strong foundation in technology and data analysis. With hands-on experience in operations management and human resources, I bring a unique blend of technical skills and business acumen to drive data-informed decision-making.
+I am an **MS Business Analytics** candidate at **Boston University** with a strong foundation in technology, operations, and data analysis. Through experience in operations leadership and human resources, I bring a mix of technical skills and business awareness to data-informed decision-making.
 
 My expertise spans across:
 
 - **Data Analysis & Visualization** using Python, R, and Power BI
 - **Business Intelligence** and dashboard development
-- **Operations Management** with proven leadership experience
+- **Operations Management** with leadership and process-improvement experience
 - **Cross-functional Communication** in multilingual environments
 
 ---

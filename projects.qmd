@@ -7,7 +7,7 @@ format:
 
 ## 📊 My Projects
 
-Here's a showcase of my academic and personal projects that demonstrate my skills in data science, analytics, and web development.
+Here's a showcase of the projects that best align with my updated resume, especially in analytics, business intelligence, and web development.
 
 ---
 
@@ -16,7 +16,7 @@ Here's a showcase of my academic and personal projects that demonstrate my skill
 ### 1. Portfolio Website
 **Technologies**: Quarto, Python, HTML/CSS, GitHub Pages
 
-This personal portfolio website showcasing my skills, projects, and professional background. Built using Quarto framework with Python visualizations and deployed on GitHub Pages.
+This personal portfolio website showcases my skills, projects, and professional background. It is built with Quarto, includes Python visualizations, and is deployed on GitHub Pages.
 
 **Key Features**:
 
@@ -47,7 +47,7 @@ This personal portfolio website showcasing my skills, projects, and professional
 ### 3. Business Intelligence Dashboard
 **Technologies**: Power BI, Excel, SQL
 
-Created comprehensive dashboards for business analytics, featuring:
+Created dashboards for business analytics, featuring:
 
 - Sales trend analysis
 - Customer segmentation
@@ -59,7 +59,7 @@ Created comprehensive dashboards for business analytics, featuring:
 ### 4. Python Data Analysis
 **Technologies**: Python, Pandas, Matplotlib, Seaborn
 
-Various data analysis projects including:
+Data analysis work including:
 
 - Exploratory Data Analysis (EDA)
 - Statistical analysis and hypothesis testing
@@ -84,7 +84,7 @@ Various data analysis projects including:
 
 ## 🚀 Future Projects
 
-I'm currently working on and planning:
+I'm currently working on and planning projects that support my analytics career goals:
 
 - **Machine Learning Models**: Predictive analytics for business use cases
 - **Web Applications**: Interactive data apps using Streamlit/Dash
