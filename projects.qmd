@@ -39,6 +39,8 @@ Analysed **2,500+ listings** across 10 neighbourhoods to decode pricing dynamics
 - K-Means market segmentation into 4 host strategy profiles
 - Analysis spanning 10 Zurich neighbourhoods
 
+[View on GitHub](https://github.com/mishalaboobackar/zurich-airbnb-analysis){.btn .btn-primary}
+
 ---
 
 ### Festival Revenue Strategy — Lobsterland Winterverse
@@ -54,6 +56,8 @@ Segmented **989 households** into 5 customer profiles. Combined conjoint analysi
 - Conjoint analysis + A/B testing for vendor preference ranking
 - Savoury food identified as #1 revenue driver (~$182K/day)
 - Recommendations directly adopted by course client
+
+[View on GitHub](https://github.com/mishalaboobackar/lobsterland-winterverse){.btn .btn-primary}
 
 ---
 
