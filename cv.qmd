@@ -5,112 +5,129 @@ format:
     toc: true
 ---
 
-## 📄 My CV
-
-Download my complete curriculum vitae to learn more about my professional background, education, and experience.
+## Download CV
 
 ::: {.callout-tip}
 ## Download CV
-[📥 Download CV (PDF)](mishalcv.pdf){.btn .btn-primary .btn-lg}
+[Download CV (PDF)](mishalcv.pdf){.btn .btn-primary .btn-lg}
 :::
 
 ---
 
-## 👤 Professional Summary
+## Professional Summary
 
-I am an **MS Business Analytics** candidate at **Boston University** with a strong foundation in technology, operations, and data analysis. Through experience in operations leadership and human resources, I bring a mix of technical skills and business awareness to data-informed decision-making.
-
-My expertise spans across:
-
-- **Data Analysis & Visualization** using Python, R, and Power BI
-- **Business Intelligence** and dashboard development
-- **Operations Management** with leadership and process-improvement experience
-- **Cross-functional Communication** in multilingual environments
+M.S. Applied Business Analytics candidate at Boston University (GPA: 3.5, May 2026) with professional experience as a Business Analyst spanning 23 countries. Skilled in Python, SQL, Power BI, Tableau, Apache Spark, and machine learning — with a track record of measurable outcomes: accelerating revenue growth from 3% to 9%, reducing ERP reporting errors by 25%, and scaling a CSR programme to 2,000+ beneficiaries. Brings cross-functional collaboration, executive stakeholder reporting, and cloud-based data pipeline experience. Eligible for STEM OPT (3-year work authorisation). Available for full-time roles from June 2026.
 
 ---
 
-## 🎓 Education
+## Education
 
-| Degree | Institution | Location | Period | Status |
-|--------|-------------|----------|--------|--------|
-| MS Business Analytics | Boston University | Boston, MA, USA | 2024 - 2026 | In Progress |
-| BTech | SRM University | Chennai, India | 2020 - 2024 | Completed |
-
----
-
-## 💼 Professional Experience
-
-### Operations Head
-**G-TEC Computer Education** | 2023 - 2025
-
-- Led operational strategies to improve organizational efficiency
-- Managed cross-functional teams and coordinated daily activities
-- Implemented process improvements resulting in enhanced productivity
-- Developed and maintained key performance indicators (KPIs)
-
-### HR Intern
-**USDC** | July - August 2023
-
-- Assisted in recruitment and onboarding processes
-- Supported HR administrative functions and documentation
-- Participated in employee engagement initiatives
-- Gained exposure to HR analytics and reporting
+| Degree | Institution | Location | Period | Notes |
+|--------|-------------|----------|--------|-------|
+| M.S. Applied Business Analytics | Boston University | Boston, MA | 2024 – 2026 | GPA: 3.5 · ML · Data Mining · Marketing Analytics · Statistical Modelling · A/B Testing · BI |
+| B.Tech — Computer Science (Big Data Analytics) | SRM University | Chennai, India | 2020 – 2024 | Capstone: Text Steganography Detection System (NLP / Law Enforcement) |
 
 ---
 
-## 🛠️ Technical Skills
+## Professional Experience
+
+### Business Analyst
+**G-TEC Education** | Sep 2023 – Jan 2025
+*Singapore — Multi-country operations across Asia, the Middle East & Africa (23 countries)*
+
+- **Revenue Growth**: Accelerated annual revenue growth from 3% to 9%, exceeding forecast targets by 6 percentage points — through process optimisation, executive stakeholder reporting, and strategic Zoho/IBM partnership integrations.
+- **ERP & Pipelines**: Contributed to full-cycle GEMS ERP implementation, designing ETL pipelines and automating critical workflows that reduced operational reporting errors by ~25% and improved cross-functional visibility across 23 country operations.
+- **BI & Reporting**: Built and maintained executive-level Power BI dashboards and financial forecasting models — enabling senior leadership to make cross-border strategic decisions with real-time data.
+- **Product Strategy**: Conducted product strategy analysis and launched MyCredits, a skill-credit programme aligned with India's National Education Policy — expanded G-TEC's academic portfolio network-wide.
+- **Social Impact**: Spearheaded G-TEC Women Power, a CSR initiative delivering free education and job placement to 2,000+ women in underserved communities, strengthening brand equity and regional market penetration.
+- **Growth Analytics**: Delivered data-driven marketing insights and deployed MagicReview network-wide, measurably improving Google My Business visibility through cross-functional collaboration with the marketing team.
+
+### Inventory Management
+**Boston University Dining Services** | Jan 2025 – May 2025
+*Boston, MA — Part-time alongside M.S. programme*
+
+- Managed end-to-end inventory procurement — sourcing and ordering supplies, maintaining budget compliance, and reconciling vendor invoices to ensure accurate financial records and cost control.
+- Monitored consumption patterns to forecast reorder points, reducing stockout and overage instances through data-informed ordering decisions.
+
+### HR & Operations Intern
+**USDC Global** | Jul 2023 – Aug 2023
+*Bangalore, India*
+
+- Managed end-to-end recruitment and onboarding for 10+ hires across departments, achieving zero attrition within the first 90 days.
+- Maintained HR records for 200+ employees and produced compliance audit reports with 100% accuracy.
+- Tracked field performance of 100+ staff using RECIBO, surfacing data-driven insights that improved travel allowance utilisation and operational efficiency.
+
+---
+
+## Technical Skills
 
 | Category | Skills |
 |----------|--------|
-| **Programming** | Python, R, SQL |
-| **Data Tools** | Excel, Power BI, Pandas |
-| **Visualization** | Matplotlib, Seaborn, Power BI |
-| **Soft Skills** | Leadership, Communication, Problem Solving |
+| **Programming & Libraries** | Python (Pandas, NumPy, Scikit-learn, PySpark, Matplotlib), R, SQL |
+| **Machine Learning & AI** | Regression, Classification (Decision Tree, Random Forest, k-NN, CNN, DistilBERT), Clustering (K-Means), NLP (VADER, RoBERTa, GloVe, SpaCy), A/B Testing |
+| **BI & Visualisation** | Power BI, Tableau, MS Excel (PivotTables, Power Query, Advanced Formulas) |
+| **Data Engineering & Cloud** | Apache Spark, PySpark, ETL Processes, Git, GitHub, AWS (EC2, Cloud Foundations), Oracle, Cloudera |
+| **IDEs & Environments** | VS Code, Google Colab, Jupyter Notebook |
+| **Business & ERP Tools** | GEMS ERP, Zoho, RECIBO, Google Workspace, Microsoft Office Suite, Visio, Lucidchart |
 
 ---
 
-## 🌍 Languages
+## Academic Projects
+
+### Job Market Intelligence — Data Science & Analytics Roles
+**Technologies**: Python · PySpark · Apache Spark · AWS EC2 · Random Forest · Git
+*Boston University — Big Data Analytics (AD688) | Team Lead*
+
+Led a team to mine 47,500+ real job postings from the Lightcast dataset via an ETL pipeline built with PySpark and Apache Spark, deployed on AWS EC2. Built a Random Forest salary model that outperformed all baselines. Identified 4 distinct job families via unsupervised clustering — delivered a market-entry roadmap presented to faculty panel.
+
+### Zurich Airbnb Market Analysis
+**Technologies**: Python · Pandas · Scikit-learn · DistilBERT · K-Means · Jupyter
+*Boston University — Applied Machine Learning (AD699)*
+
+Analysed 2,500+ listings across 10 neighbourhoods to decode pricing dynamics. Regression modelling showed each additional bedroom lifts nightly rates by ~32%. Applied k-NN, Decision Tree, and DistilBERT for price-tier prediction; segmented market into 4 actionable host profiles.
+
+### Festival Revenue Strategy — Lobsterland Winterverse
+**Technologies**: Python · A/B Testing · Conjoint Analysis · K-Means · Google Colab
+*Boston University — Marketing Analytics (AD654)*
+
+Segmented 989 households into 5 customer profiles. Combined conjoint analysis and A/B testing to rank vendor preferences. Identified savoury food as top revenue driver (~$182K/day) — recommendations adopted as the course client's final vendor selection and spatial layout strategy.
+
+---
+
+## Achievements & Awards
+
+- **1st Place** — ABA@BU Hackathon, Fall 2025, Competition A: Dataset Analysis & Modelling (out of 40+ teams, Boston University Applied Business Analytics Programme)
+
+---
+
+## Certifications
+
+- Google Data Analytics Professional Certificate — Google
+- AWS Academy Graduate: Cloud Foundations — Amazon Web Services
+- Cloudera Foundations for Big Data Analysis with SQL — Cloudera
+- Oracle Database Foundations — Oracle
+- ICDL/ECDL 5.0 Spreadsheets — MS Excel (ICDL)
+
+---
+
+## Languages
 
 | Language | Proficiency |
 |----------|-------------|
 | English | Fluent |
+| Hindi | Fluent |
 | Malayalam | Fluent |
-| Hindi | Advanced |
 | Tamil | Intermediate |
-| Arabic | Elementary |
-| Japanese | Beginner |
+| Arabic | Basic |
+| Japanese | Basic |
 
 ---
 
-## 🏆 Key Competencies
+## Volunteer & International Engagement
 
-::: {.grid}
-::: {.g-col-6}
-**Technical**
-
-- Data Analysis & Mining
-- Statistical Modeling
-- Database Management
-- Business Intelligence
-- Web Development
-:::
-
-::: {.g-col-6}
-**Professional**
-
-- Team Leadership
-- Project Management
-- Strategic Planning
-- Problem Solving
-- Cross-cultural Communication
-:::
-:::
+- **International representation** — Sharjah International Book Fair 2024, EduTEX Oman, and Austrade Festival of Australia: engaged educators, government officials, and institutional partners across three continents on behalf of G-TEC Education.
+- **News18 Anti-Drug Campaign** — Delivered a live public awareness address on substance abuse to a national television audience, reaching thousands of viewers across India.
 
 ---
 
-## 📥 Download Full CV
-
-For a comprehensive view of my qualifications, experience, and achievements:
-
-[📄 Download CV (PDF)](mishalcv.pdf){.btn .btn-primary .btn-lg}
-
+[Download Full CV (PDF)](mishalcv.pdf){.btn .btn-primary .btn-lg}

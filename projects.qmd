@@ -5,96 +5,64 @@ format:
     toc: true
 ---
 
-## 📊 My Projects
-
-Here's a showcase of the projects that best align with my updated resume, especially in analytics, business intelligence, and web development.
+## Academic Projects
 
 ---
 
-## 🎓 Academic Projects
+### Job Market Intelligence — Data Science & Analytics Roles
+**Technologies**: Python · PySpark · Apache Spark · AWS EC2 · Random Forest · Git
 
-### 1. Portfolio Website
-**Technologies**: Quarto, Python, HTML/CSS, GitHub Pages
+*Boston University — Big Data Analytics (AD688) | Team Lead*
 
-This personal portfolio website showcases my skills, projects, and professional background. It is built with Quarto, includes Python visualizations, and is deployed on GitHub Pages.
+Led a team to mine **47,500+ real job postings** from the Lightcast dataset via an ETL pipeline built with PySpark and Apache Spark, deployed on AWS EC2. Built a Random Forest salary model that outperformed all baselines. Identified **4 distinct job families** via unsupervised clustering — delivered a market-entry roadmap presented to a faculty panel. Version-controlled using Git.
 
-**Key Features**:
+**Key Highlights**:
 
-- Interactive data visualizations
-- Responsive design
-- Professional layout with multiple pages
-
-[View on GitHub](https://github.com/mishalaboobackar/mishalaboobackar.github.io){.btn .btn-primary}
-
----
-
-### 2. Data Analysis Projects
-
-**Project Categories:**
-
-| Category | Number of Projects |
-|----------|-------------------|
-| Data Analysis | 3 |
-| Machine Learning | 2 |
-| Visualization | 4 |
-| Web Development | 2 |
-| Business Intelligence | 3 |
+- ETL pipeline on AWS EC2 using PySpark and Apache Spark
+- Random Forest salary prediction model (outperformed all baselines)
+- Unsupervised clustering revealing 4 distinct job market segments
+- Market-entry roadmap presented to faculty panel
 
 ---
 
-## 💼 Personal Projects
+### Zurich Airbnb Market Analysis
+**Technologies**: Python · Pandas · Scikit-learn · DistilBERT · K-Means · Jupyter
 
-### 3. Business Intelligence Dashboard
-**Technologies**: Power BI, Excel, SQL
+*Boston University — Applied Machine Learning (AD699)*
 
-Created dashboards for business analytics, featuring:
+Analysed **2,500+ listings** across 10 neighbourhoods to decode pricing dynamics. Regression modelling showed each additional bedroom lifts nightly rates by **~32%**. Applied k-NN, Decision Tree, and DistilBERT for price-tier prediction; segmented the market into **4 actionable host profiles**. Findings presented to faculty panel.
 
-- Sales trend analysis
-- Customer segmentation
-- KPI tracking and reporting
-- Interactive filtering capabilities
+**Key Highlights**:
 
----
-
-### 4. Python Data Analysis
-**Technologies**: Python, Pandas, Matplotlib, Seaborn
-
-Data analysis work including:
-
-- Exploratory Data Analysis (EDA)
-- Statistical analysis and hypothesis testing
-- Data cleaning and preprocessing
-- Visualization of insights
+- Pricing regression: +32% nightly rate per additional bedroom
+- Multi-model classification: k-NN, Decision Tree, DistilBERT
+- K-Means market segmentation into 4 host strategy profiles
+- Analysis spanning 10 Zurich neighbourhoods
 
 ---
 
-## 🛠️ Technical Skills Used
+### Festival Revenue Strategy — Lobsterland Winterverse
+**Technologies**: Python · A/B Testing · Conjoint Analysis · K-Means · Google Colab
 
-| Skill | Usage Frequency |
-|-------|-----------------|
-| Python | 85% |
-| SQL | 70% |
-| Excel | 90% |
-| Power BI | 75% |
-| R | 50% |
-| Git/GitHub | 80% |
-| HTML/CSS | 60% |
+*Boston University — Marketing Analytics (AD654)*
 
----
+Segmented **989 households** into 5 customer profiles. Combined conjoint analysis and A/B testing to rank vendor preferences. Identified savoury food as top revenue driver (**~$182K/day**) — recommendations adopted as the course client's final vendor selection and spatial layout strategy.
 
-## 🚀 Future Projects
+**Key Highlights**:
 
-I'm currently working on and planning projects that support my analytics career goals:
-
-- **Machine Learning Models**: Predictive analytics for business use cases
-- **Web Applications**: Interactive data apps using Streamlit/Dash
-- **Big Data Analytics**: Working with large datasets using cloud platforms
-- **AI/NLP Projects**: Text analysis and natural language processing
+- 5-segment customer profiling from 989 households
+- Conjoint analysis + A/B testing for vendor preference ranking
+- Savoury food identified as #1 revenue driver (~$182K/day)
+- Recommendations directly adopted by course client
 
 ---
 
-## 📁 GitHub Repository
+## Achievements
 
-For more projects and code samples, visit my GitHub profile:
+- **1st Place** — ABA@BU Hackathon, Fall 2025, Competition A: Dataset Analysis & Modelling (out of 40+ teams, Boston University Applied Business Analytics Programme)
 
-[🔗 github.com/mishalaboobackar](https://github.com/mishalaboobackar){.btn .btn-primary}
+---
+
+## GitHub
+
+[github.com/mishalaboobackar](https://github.com/mishalaboobackar){.btn .btn-primary}

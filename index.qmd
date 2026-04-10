@@ -1,6 +1,6 @@
 ---
-title: "Mishal Aboobackar Manalody"
-subtitle: "MS Business Analytics candidate | Operations and analytics background"
+title: "Mishal Aboobackar"
+subtitle: "Business Analytics · Data Strategy · Product & Operations Intelligence"
 image: images/websitephoto.jpg
 about:
   template: trestles
@@ -12,13 +12,13 @@ about:
       href: https://github.com/mishalaboobackar
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com/in/mishal-aboobackar-5776bb291
+      href: https://linkedin.com/in/mishal-aboobackar
     - icon: envelope
       text: Email
-      href: mailto:mishaaal@bu.edu
+      href: mailto:mishalaboo@gmail.com
     - icon: telephone
-      text: +1 (617) 849-4170
-      href: tel:+16178494170
+      text: +1 (617) 849-4179
+      href: tel:+16178494179
     - icon: file-earmark-pdf
       text: CV
       href: mishalcv.pdf
@@ -27,83 +27,81 @@ format:
     toc: true
 ---
 
-## 👋 About Me
+## About Me
 
-I’m **Mishal Aboobackar Manalody**, an **MS Business Analytics** candidate at **Boston University** with a **BTech from SRM University**. I combine operations leadership, human resources exposure, and analytics training to turn data into practical business decisions.
+I'm **Mishal Aboobackar**, an **M.S. Applied Business Analytics** candidate at **Boston University** (GPA: 3.5, May 2026) with professional experience as a Business Analyst spanning **23 countries**. I combine technical depth in Python, SQL, Power BI, Tableau, and Apache Spark with a track record of measurable business outcomes.
 
-## 🎯 What I Bring
+Eligible for **STEM OPT (3-year work authorisation)**. Available for full-time roles from **June 2026**.
 
-- **Analytics and reporting** using Python, R, SQL, Excel, and Power BI
-- **Business operations experience** with KPI tracking, process improvement, and team coordination
-- **Cross-functional communication** across multilingual and multicultural environments
-- **Web and portfolio development** using Quarto, HTML/CSS, and GitHub Pages
+## What I Bring
 
-## 📚 Education and Experience Snapshot
+- **Analytics & ML**: Python, SQL, R, Power BI, Tableau, Apache Spark, Scikit-learn, NLP
+- **Business outcomes**: Accelerated revenue growth from 3% to 9%; reduced ERP errors by 25%; scaled CSR programme to 2,000+ beneficiaries
+- **Data engineering**: ETL pipelines, PySpark, AWS EC2, Oracle, Cloudera
+- **Cross-functional collaboration**: Executive stakeholder reporting across 23 country operations
+
+## Education & Experience Snapshot
 
 ::: {.grid}
 ::: {.g-col-6}
 ### Education
 
-- **Boston University** — MS Business Analytics, 2024–2026
-- **SRM University** — BTech, 2020–2024
+- **Boston University** — M.S. Applied Business Analytics, 2024–2026 (GPA: 3.5)
+- **SRM University** — B.Tech, Computer Science — Big Data Analytics, 2020–2024
 :::
 
 ::: {.g-col-6}
 ### Experience
 
-- **Operations Head** — G-TEC Computer Education, 2023–2025
-- **HR Intern** — USDC, Jul–Aug 2023
+- **Business Analyst** — G-TEC Education, Sep 2023 – Jan 2025 (23 countries)
+- **Inventory Management** — Boston University Dining Services, Jan–May 2025
+- **HR & Operations Intern** — USDC Global, Jul–Aug 2023
 :::
 :::
 
-## 💡 Current Focus
+## Current Focus
 
-I am looking for opportunities in **data analytics**, **business intelligence**, and **data science** where I can contribute through clear analysis, strong execution, and a practical understanding of business needs.
-
----
-
-## 🛠️ Technical Skills
-
-| Skill | Proficiency |
-|-------|-------------|
-| Python | ⭐⭐⭐⭐⭐⭐⭐ 7/10 |
-| SQL | ⭐⭐⭐⭐⭐ 5/10 |
-| Excel | ⭐⭐⭐⭐⭐⭐⭐⭐ 8/10 |
-| Power BI | ⭐⭐⭐⭐⭐⭐⭐⭐ 8/10 |
-| R | ⭐⭐⭐⭐⭐⭐ 6/10 |
-| Data Visualization | ⭐⭐⭐⭐⭐⭐⭐ 7/10 |
+I'm looking for opportunities in **data analytics**, **business intelligence**, and **data science** where I can contribute through clear analysis, strong execution, and practical understanding of business needs.
 
 ---
 
-## 🌍 Languages
+## Technical Skills
+
+| Category | Skills |
+|----------|--------|
+| **Programming & Libraries** | Python (Pandas, NumPy, Scikit-learn, PySpark, Matplotlib), R, SQL |
+| **Machine Learning & AI** | Regression, Classification (Decision Tree, Random Forest, k-NN, CNN, DistilBERT), K-Means, NLP (VADER, RoBERTa, GloVe, SpaCy), A/B Testing |
+| **BI & Visualisation** | Power BI, Tableau, MS Excel (PivotTables, Power Query, Advanced Formulas) |
+| **Data Engineering & Cloud** | Apache Spark, PySpark, ETL, Git, GitHub, AWS (EC2, Cloud Foundations), Oracle, Cloudera |
+| **Business & ERP Tools** | GEMS ERP, Zoho, RECIBO, Google Workspace, Microsoft Office Suite, Visio, Lucidchart |
+
+---
+
+## Languages
 
 | Language | Proficiency |
 |----------|-------------|
 | English | Fluent |
+| Hindi | Fluent |
 | Malayalam | Fluent |
-| Hindi | Advanced |
 | Tamil | Intermediate |
-| Arabic | Elementary |
-| Japanese | Beginner |
+| Arabic | Basic |
+| Japanese | Basic |
 
 ---
 
-## 🎓 Education
+## Education
 
 | Degree | Institution | Period |
 |--------|-------------|--------|
-| MS Business Analytics | Boston University | 2024 - 2026 |
-| BTech | SRM University | 2020 - 2024 |
+| M.S. Applied Business Analytics | Boston University | 2024 – 2026 |
+| B.Tech, Computer Science — Big Data Analytics | SRM University | 2020 – 2024 |
 
 ---
 
-## 📫 Let's Connect!
+## Let's Connect
 
-I'm always open to discussing new opportunities, collaborations, or just having a chat about data and technology. Feel free to reach out through the [Contact](contact.qmd) page or connect with me directly:
-
-- 📧 **Email**: [mishaaal@bu.edu](mailto:mishaaal@bu.edu)
-- 📱 **Phone**: +1 (617) 849-4170
-- 💼 **LinkedIn**: [mishal-aboobackar](https://linkedin.com/in/mishal-aboobackar-5776bb291)
-- 🐙 **GitHub**: [mishalaboobackar](https://github.com/mishalaboobackar)
-
-
+- **Email**: [mishalaboo@gmail.com](mailto:mishalaboo@gmail.com)
+- **Phone**: +1 (617) 849-4179
+- **LinkedIn**: [mishal-aboobackar](https://linkedin.com/in/mishal-aboobackar)
+- **GitHub**: [mishalaboobackar](https://github.com/mishalaboobackar)
