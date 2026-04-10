@@ -1,157 +1,17 @@
 [
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Here’s a showcase of my academic and personal projects that demonstrate my skills in data science, analytics, and web development."
-  },
-  {
-    "objectID": "projects.html#my-projects",
-    "href": "projects.html#my-projects",
-    "title": "Projects",
-    "section": "",
-    "text": "Here’s a showcase of my academic and personal projects that demonstrate my skills in data science, analytics, and web development."
-  },
-  {
-    "objectID": "projects.html#academic-projects",
-    "href": "projects.html#academic-projects",
-    "title": "Projects",
-    "section": "🎓 Academic Projects",
-    "text": "🎓 Academic Projects\n\n1. Portfolio Website\nTechnologies: Quarto, Python, HTML/CSS, GitHub Pages\nThis personal portfolio website showcasing my skills, projects, and professional background. Built using Quarto framework with Python visualizations and deployed on GitHub Pages.\nKey Features:\n\nInteractive data visualizations\nResponsive design\nProfessional layout with multiple pages\n\nView on GitHub\n\n\n\n2. Data Analysis Projects"
-  },
-  {
-    "objectID": "projects.html#personal-projects",
-    "href": "projects.html#personal-projects",
-    "title": "Projects",
-    "section": "💼 Personal Projects",
-    "text": "💼 Personal Projects\n\n3. Business Intelligence Dashboard\nTechnologies: Power BI, Excel, SQL\nCreated comprehensive dashboards for business analytics, featuring:\n\nSales trend analysis\nCustomer segmentation\nKPI tracking and reporting\nInteractive filtering capabilities\n\n\n\n\n4. Python Data Analysis\nTechnologies: Python, Pandas, Matplotlib, Seaborn\nVarious data analysis projects including:\n\nExploratory Data Analysis (EDA)\nStatistical analysis and hypothesis testing\nData cleaning and preprocessing\nVisualization of insights"
-  },
-  {
-    "objectID": "projects.html#technical-skills-used",
-    "href": "projects.html#technical-skills-used",
-    "title": "Projects",
-    "section": "🛠️ Technical Skills Used",
-    "text": "🛠️ Technical Skills Used"
-  },
-  {
-    "objectID": "projects.html#future-projects",
-    "href": "projects.html#future-projects",
-    "title": "Projects",
-    "section": "🚀 Future Projects",
-    "text": "🚀 Future Projects\nI’m currently working on and planning:\n\nMachine Learning Models: Predictive analytics for business use cases\nWeb Applications: Interactive data apps using Streamlit/Dash\nBig Data Analytics: Working with large datasets using cloud platforms\nAI/NLP Projects: Text analysis and natural language processing"
-  },
-  {
-    "objectID": "projects.html#github-repository",
-    "href": "projects.html#github-repository",
-    "title": "Projects",
-    "section": "📁 GitHub Repository",
-    "text": "📁 GitHub Repository\nFor more projects and code samples, visit my GitHub profile:\n🔗 github.com/mishalaboobackar"
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "Download my complete curriculum vitae to learn more about my professional background, education, and experience.\n\n\n\n\n\n\nTipDownload CV\n\n\n\n📥 Download CV (PDF)"
-  },
-  {
-    "objectID": "cv.html#my-cv",
-    "href": "cv.html#my-cv",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "Download my complete curriculum vitae to learn more about my professional background, education, and experience.\n\n\n\n\n\n\nTipDownload CV\n\n\n\n📥 Download CV (PDF)"
-  },
-  {
-    "objectID": "cv.html#professional-summary",
-    "href": "cv.html#professional-summary",
-    "title": "Curriculum Vitae",
-    "section": "👤 Professional Summary",
-    "text": "👤 Professional Summary\nI am a dedicated MS Business Analytics candidate at Boston University with a strong foundation in technology and data analysis. With hands-on experience in operations management and human resources, I bring a unique blend of technical skills and business acumen to drive data-informed decision-making.\nMy expertise spans across:\n\nData Analysis & Visualization using Python, R, and Power BI\nBusiness Intelligence and dashboard development\nOperations Management with proven leadership experience\nCross-functional Communication in multilingual environments"
-  },
-  {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
-    "title": "Curriculum Vitae",
-    "section": "🎓 Education",
-    "text": "🎓 Education\n\n\n\n\n\n\n\nDegree\nInstitution\nLocation\nPeriod\nStatus\n\n\n\n\nMS Business Analytics\nBoston University\nBoston, MA, USA\n2024 - 2026\nIn Progress\n\n\nBTech\nSRM University\nChennai, India\n2020 - 2024\nCompleted"
-  },
-  {
-    "objectID": "cv.html#professional-experience",
-    "href": "cv.html#professional-experience",
-    "title": "Curriculum Vitae",
-    "section": "💼 Professional Experience",
-    "text": "💼 Professional Experience\n\nOperations Head\nG-TEC Computer Education | 2023 - 2025\n\nLed operational strategies to improve organizational efficiency\nManaged cross-functional teams and coordinated daily activities\nImplemented process improvements resulting in enhanced productivity\nDeveloped and maintained key performance indicators (KPIs)\n\n\n\nHR Intern\nUSDC | July - August 2023\n\nAssisted in recruitment and onboarding processes\nSupported HR administrative functions and documentation\nParticipated in employee engagement initiatives\nGained exposure to HR analytics and reporting"
-  },
-  {
-    "objectID": "cv.html#technical-skills",
-    "href": "cv.html#technical-skills",
-    "title": "Curriculum Vitae",
-    "section": "🛠️ Technical Skills",
-    "text": "🛠️ Technical Skills"
-  },
-  {
-    "objectID": "cv.html#languages",
-    "href": "cv.html#languages",
-    "title": "Curriculum Vitae",
-    "section": "🌍 Languages",
-    "text": "🌍 Languages\n\n\n\nLanguage\nProficiency\n\n\n\n\nEnglish\nFluent\n\n\nMalayalam\nFluent\n\n\nHindi\nAdvanced\n\n\nTamil\nIntermediate\n\n\nArabic\nElementary\n\n\nJapanese\nBeginner"
-  },
-  {
-    "objectID": "cv.html#key-competencies",
-    "href": "cv.html#key-competencies",
-    "title": "Curriculum Vitae",
-    "section": "🏆 Key Competencies",
-    "text": "🏆 Key Competencies\n\n\nTechnical\n\nData Analysis & Mining\nStatistical Modeling\nDatabase Management\nBusiness Intelligence\nWeb Development\n\n\n\nProfessional\n\nTeam Leadership\nProject Management\nStrategic Planning\nProblem Solving\nCross-cultural Communication"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "I’m currently pursuing my Master of Science in Business Analytics at Boston University, building on my strong foundation from my Bachelor’s degree in Technology from SRM University.\n\n\n\n\n\n\n\nPeriod\nInstitution\nDegree\nLocation\n\n\n\n\n2024 - 2026\nBoston University\nMS Business Analytics\nBoston, MA\n\n\n2020 - 2024\nSRM University\nBTech\nIndia"
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "About Me",
-    "section": "",
-    "text": "I’m currently pursuing my Master of Science in Business Analytics at Boston University, building on my strong foundation from my Bachelor’s degree in Technology from SRM University.\n\n\n\n\n\n\n\nPeriod\nInstitution\nDegree\nLocation\n\n\n\n\n2024 - 2026\nBoston University\nMS Business Analytics\nBoston, MA\n\n\n2020 - 2024\nSRM University\nBTech\nIndia"
-  },
-  {
-    "objectID": "about.html#professional-experience",
-    "href": "about.html#professional-experience",
-    "title": "About Me",
-    "section": "💼 Professional Experience",
-    "text": "💼 Professional Experience\n\n\n\n\n\n\n\nPeriod\nRole\nCompany\nType\n\n\n\n\n2023 - 2025\nOperations Head\nG-TEC Computer Education\nFull-time\n\n\n2023 (Jul - Aug)\nHR Intern\nUSDC\nInternship"
-  },
-  {
-    "objectID": "about.html#languages",
-    "href": "about.html#languages",
-    "title": "About Me",
-    "section": "🌍 Languages",
-    "text": "🌍 Languages\nI’m multilingual with proficiency in several languages, which helps me communicate and collaborate across diverse teams.\n\n\nScale: 1 = Beginner, 5 = Fluent"
-  },
-  {
-    "objectID": "about.html#interests-hobbies",
-    "href": "about.html#interests-hobbies",
-    "title": "About Me",
-    "section": "🎯 Interests & Hobbies",
-    "text": "🎯 Interests & Hobbies\n\n📊 Data Science & Analytics - Exploring patterns in data\n🤖 Artificial Intelligence - Building intelligent systems\n💻 Web Development - Creating interactive experiences\n📚 Continuous Learning - Always exploring new technologies\n🌐 Cross-cultural Communication - Connecting with people globally"
-  },
-  {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "I’m always excited to connect with fellow professionals, potential collaborators, and anyone interested in data science and analytics. Feel free to reach out!"
+    "text": "I’m always open to connecting with recruiters, collaborators, and anyone interested in data science, analytics, and business intelligence. Feel free to reach out!"
   },
   {
     "objectID": "contact.html#get-in-touch",
     "href": "contact.html#get-in-touch",
     "title": "Contact",
     "section": "",
-    "text": "I’m always excited to connect with fellow professionals, potential collaborators, and anyone interested in data science and analytics. Feel free to reach out!"
+    "text": "I’m always open to connecting with recruiters, collaborators, and anyone interested in data science, analytics, and business intelligence. Feel free to reach out!"
   },
   {
     "objectID": "contact.html#contact-information",
@@ -196,24 +56,227 @@
     "text": "💡 Preferred Contact Method\nThe best way to reach me is via email at mishaaal@bu.edu. I check my inbox regularly and will get back to you as soon as possible.\n\n\n\n\n\n\n\nNoteLooking Forward to Hearing From You!\n\n\n\nWhether you have a question, want to discuss a potential opportunity, or just want to say hello – don’t hesitate to reach out!"
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m Mishal Aboobackar, currently pursuing my Master of Science in Applied Business Analytics at Boston University (GPA: 3.5, May 2026). I hold a B.Tech in Computer Science — Big Data Analytics from SRM University and bring professional experience as a Business Analyst spanning 23 countries across Asia, the Middle East & Africa.\nEligible for STEM OPT (3-year work authorisation). Available from June 2026."
+  },
+  {
+    "objectID": "about.html#professional-snapshot",
+    "href": "about.html#professional-snapshot",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m Mishal Aboobackar, currently pursuing my Master of Science in Applied Business Analytics at Boston University (GPA: 3.5, May 2026). I hold a B.Tech in Computer Science — Big Data Analytics from SRM University and bring professional experience as a Business Analyst spanning 23 countries across Asia, the Middle East & Africa.\nEligible for STEM OPT (3-year work authorisation). Available from June 2026."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\n\n\n\n\n\n\n\nPeriod\nInstitution\nDegree\nLocation\nGPA / Note\n\n\n\n\nMay 2026 (Expected)\nBoston University\nM.S. Applied Business Analytics\nBoston, MA\n3.5 (in progress)\n\n\nMay 2024\nSRM University\nB.Tech — Computer Science (Big Data Analytics)\nChennai, India\nCapstone: Text Steganography Detection System"
+  },
+  {
+    "objectID": "about.html#professional-experience",
+    "href": "about.html#professional-experience",
+    "title": "About Me",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\n\n\n\n\n\n\nPeriod\nRole\nCompany\nLocation\n\n\n\n\nSep 2023 – Jan 2025\nBusiness Analyst\nG-TEC Education\nSingapore (23 countries)\n\n\nJan 2025 – May 2025\nInventory Management\nBoston University Dining Services\nBoston, MA\n\n\nJul 2023 – Aug 2023\nHR & Operations Intern\nUSDC Global\nBangalore, India"
+  },
+  {
+    "objectID": "about.html#core-skills",
+    "href": "about.html#core-skills",
+    "title": "About Me",
+    "section": "Core Skills",
+    "text": "Core Skills\n\nProgramming & Libraries: Python (Pandas, NumPy, Scikit-learn, PySpark, Matplotlib), R, SQL\nMachine Learning & AI: Regression, Classification (Decision Tree, Random Forest, k-NN, CNN, DistilBERT), K-Means, NLP (VADER, RoBERTa, GloVe, SpaCy), A/B Testing\nBI & Visualisation: Power BI, Tableau, MS Excel (PivotTables, Power Query, Advanced Formulas)\nData Engineering & Cloud: Apache Spark, PySpark, ETL, Git, GitHub, AWS (EC2, Cloud Foundations), Oracle, Cloudera\nBusiness & ERP Tools: GEMS ERP, Zoho, RECIBO, Google Workspace, Microsoft Office Suite, Visio, Lucidchart"
+  },
+  {
+    "objectID": "about.html#languages",
+    "href": "about.html#languages",
+    "title": "About Me",
+    "section": "Languages",
+    "text": "Languages\n\n\nScale: 1 = Basic, 3 = Intermediate, 5 = Fluent"
+  },
+  {
+    "objectID": "about.html#achievements-awards",
+    "href": "about.html#achievements-awards",
+    "title": "About Me",
+    "section": "Achievements & Awards",
+    "text": "Achievements & Awards\n\n1st Place — ABA@BU Hackathon, Fall 2025, Competition A: Dataset Analysis & Modelling (out of 40+ teams, Boston University Applied Business Analytics Programme)"
+  },
+  {
+    "objectID": "about.html#volunteer-international-engagement",
+    "href": "about.html#volunteer-international-engagement",
+    "title": "About Me",
+    "section": "Volunteer & International Engagement",
+    "text": "Volunteer & International Engagement\n\nInternational representation — Sharjah International Book Fair 2024, EduTEX Oman, and Austrade Festival of Australia: engaged educators, government officials, and institutional partners across three continents on behalf of G-TEC Education.\nNews18 Anti-Drug Campaign — Delivered a live public awareness address on substance abuse to a national television audience, reaching thousands of viewers across India."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "TipDownload CV\n\n\n\nDownload CV (PDF)"
+  },
+  {
+    "objectID": "cv.html#download-cv",
+    "href": "cv.html#download-cv",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "TipDownload CV\n\n\n\nDownload CV (PDF)"
+  },
+  {
+    "objectID": "cv.html#professional-summary",
+    "href": "cv.html#professional-summary",
+    "title": "Curriculum Vitae",
+    "section": "Professional Summary",
+    "text": "Professional Summary\nM.S. Applied Business Analytics candidate at Boston University (GPA: 3.5, May 2026) with professional experience as a Business Analyst spanning 23 countries. Skilled in Python, SQL, Power BI, Tableau, Apache Spark, and machine learning — with a track record of measurable outcomes: accelerating revenue growth from 3% to 9%, reducing ERP reporting errors by 25%, and scaling a CSR programme to 2,000+ beneficiaries. Brings cross-functional collaboration, executive stakeholder reporting, and cloud-based data pipeline experience. Eligible for STEM OPT (3-year work authorisation). Available for full-time roles from June 2026."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\n\n\n\n\n\n\n\n\n\n\nDegree\nInstitution\nLocation\nPeriod\nNotes\n\n\n\n\nM.S. Applied Business Analytics\nBoston University\nBoston, MA\n2024 – 2026\nGPA: 3.5 · ML · Data Mining · Marketing Analytics · Statistical Modelling · A/B Testing · BI\n\n\nB.Tech — Computer Science (Big Data Analytics)\nSRM University\nChennai, India\n2020 – 2024\nCapstone: Text Steganography Detection System (NLP / Law Enforcement)"
+  },
+  {
+    "objectID": "cv.html#professional-experience",
+    "href": "cv.html#professional-experience",
+    "title": "Curriculum Vitae",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\nBusiness Analyst\nG-TEC Education | Sep 2023 – Jan 2025 Singapore — Multi-country operations across Asia, the Middle East & Africa (23 countries)\n\nRevenue Growth: Accelerated annual revenue growth from 3% to 9%, exceeding forecast targets by 6 percentage points — through process optimisation, executive stakeholder reporting, and strategic Zoho/IBM partnership integrations.\nERP & Pipelines: Contributed to full-cycle GEMS ERP implementation, designing ETL pipelines and automating critical workflows that reduced operational reporting errors by ~25% and improved cross-functional visibility across 23 country operations.\nBI & Reporting: Built and maintained executive-level Power BI dashboards and financial forecasting models — enabling senior leadership to make cross-border strategic decisions with real-time data.\nProduct Strategy: Conducted product strategy analysis and launched MyCredits, a skill-credit programme aligned with India’s National Education Policy — expanded G-TEC’s academic portfolio network-wide.\nSocial Impact: Spearheaded G-TEC Women Power, a CSR initiative delivering free education and job placement to 2,000+ women in underserved communities, strengthening brand equity and regional market penetration.\nGrowth Analytics: Delivered data-driven marketing insights and deployed MagicReview network-wide, measurably improving Google My Business visibility through cross-functional collaboration with the marketing team.\n\n\n\nInventory Management\nBoston University Dining Services | Jan 2025 – May 2025 Boston, MA — Part-time alongside M.S. programme\n\nManaged end-to-end inventory procurement — sourcing and ordering supplies, maintaining budget compliance, and reconciling vendor invoices to ensure accurate financial records and cost control.\nMonitored consumption patterns to forecast reorder points, reducing stockout and overage instances through data-informed ordering decisions.\n\n\n\nHR & Operations Intern\nUSDC Global | Jul 2023 – Aug 2023 Bangalore, India\n\nManaged end-to-end recruitment and onboarding for 10+ hires across departments, achieving zero attrition within the first 90 days.\nMaintained HR records for 200+ employees and produced compliance audit reports with 100% accuracy.\nTracked field performance of 100+ staff using RECIBO, surfacing data-driven insights that improved travel allowance utilisation and operational efficiency."
+  },
+  {
+    "objectID": "cv.html#technical-skills",
+    "href": "cv.html#technical-skills",
+    "title": "Curriculum Vitae",
+    "section": "Technical Skills",
+    "text": "Technical Skills\n\n\n\n\n\n\n\nCategory\nSkills\n\n\n\n\nProgramming & Libraries\nPython (Pandas, NumPy, Scikit-learn, PySpark, Matplotlib), R, SQL\n\n\nMachine Learning & AI\nRegression, Classification (Decision Tree, Random Forest, k-NN, CNN, DistilBERT), Clustering (K-Means), NLP (VADER, RoBERTa, GloVe, SpaCy), A/B Testing\n\n\nBI & Visualisation\nPower BI, Tableau, MS Excel (PivotTables, Power Query, Advanced Formulas)\n\n\nData Engineering & Cloud\nApache Spark, PySpark, ETL Processes, Git, GitHub, AWS (EC2, Cloud Foundations), Oracle, Cloudera\n\n\nIDEs & Environments\nVS Code, Google Colab, Jupyter Notebook\n\n\nBusiness & ERP Tools\nGEMS ERP, Zoho, RECIBO, Google Workspace, Microsoft Office Suite, Visio, Lucidchart"
+  },
+  {
+    "objectID": "cv.html#academic-projects",
+    "href": "cv.html#academic-projects",
+    "title": "Curriculum Vitae",
+    "section": "Academic Projects",
+    "text": "Academic Projects\n\nJob Market Intelligence — Data Science & Analytics Roles\nTechnologies: Python · PySpark · Apache Spark · AWS EC2 · Random Forest · Git Boston University — Big Data Analytics (AD688) | Team Lead\nLed a team to mine 47,500+ real job postings from the Lightcast dataset via an ETL pipeline built with PySpark and Apache Spark, deployed on AWS EC2. Built a Random Forest salary model that outperformed all baselines. Identified 4 distinct job families via unsupervised clustering — delivered a market-entry roadmap presented to faculty panel.\n\n\nZurich Airbnb Market Analysis\nTechnologies: Python · Pandas · Scikit-learn · DistilBERT · K-Means · Jupyter Boston University — Applied Machine Learning (AD699)\nAnalysed 2,500+ listings across 10 neighbourhoods to decode pricing dynamics. Regression modelling showed each additional bedroom lifts nightly rates by ~32%. Applied k-NN, Decision Tree, and DistilBERT for price-tier prediction; segmented market into 4 actionable host profiles.\n\n\nFestival Revenue Strategy — Lobsterland Winterverse\nTechnologies: Python · A/B Testing · Conjoint Analysis · K-Means · Google Colab Boston University — Marketing Analytics (AD654)\nSegmented 989 households into 5 customer profiles. Combined conjoint analysis and A/B testing to rank vendor preferences. Identified savoury food as top revenue driver (~$182K/day) — recommendations adopted as the course client’s final vendor selection and spatial layout strategy."
+  },
+  {
+    "objectID": "cv.html#achievements-awards",
+    "href": "cv.html#achievements-awards",
+    "title": "Curriculum Vitae",
+    "section": "Achievements & Awards",
+    "text": "Achievements & Awards\n\n1st Place — ABA@BU Hackathon, Fall 2025, Competition A: Dataset Analysis & Modelling (out of 40+ teams, Boston University Applied Business Analytics Programme)"
+  },
+  {
+    "objectID": "cv.html#certifications",
+    "href": "cv.html#certifications",
+    "title": "Curriculum Vitae",
+    "section": "Certifications",
+    "text": "Certifications\n\nGoogle Data Analytics Professional Certificate — Google\nAWS Academy Graduate: Cloud Foundations — Amazon Web Services\nCloudera Foundations for Big Data Analysis with SQL — Cloudera\nOracle Database Foundations — Oracle\nICDL/ECDL 5.0 Spreadsheets — MS Excel (ICDL)"
+  },
+  {
+    "objectID": "cv.html#languages",
+    "href": "cv.html#languages",
+    "title": "Curriculum Vitae",
+    "section": "Languages",
+    "text": "Languages\n\n\n\nLanguage\nProficiency\n\n\n\n\nEnglish\nFluent\n\n\nHindi\nFluent\n\n\nMalayalam\nFluent\n\n\nTamil\nIntermediate\n\n\nArabic\nBasic\n\n\nJapanese\nBasic"
+  },
+  {
+    "objectID": "cv.html#volunteer-international-engagement",
+    "href": "cv.html#volunteer-international-engagement",
+    "title": "Curriculum Vitae",
+    "section": "Volunteer & International Engagement",
+    "text": "Volunteer & International Engagement\n\nInternational representation — Sharjah International Book Fair 2024, EduTEX Oman, and Austrade Festival of Australia: engaged educators, government officials, and institutional partners across three continents on behalf of G-TEC Education.\nNews18 Anti-Drug Campaign — Delivered a live public awareness address on substance abuse to a national television audience, reaching thousands of viewers across India.\n\n\nDownload Full CV (PDF)"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Technologies: Python · PySpark · Apache Spark · AWS EC2 · Random Forest · Git\nBoston University — Big Data Analytics (AD688) | Team Lead\nLed a team to mine 47,500+ real job postings from the Lightcast dataset via an ETL pipeline built with PySpark and Apache Spark, deployed on AWS EC2. Built a Random Forest salary model that outperformed all baselines. Identified 4 distinct job families via unsupervised clustering — delivered a market-entry roadmap presented to a faculty panel. Version-controlled using Git.\nKey Highlights:\n\nETL pipeline on AWS EC2 using PySpark and Apache Spark\nRandom Forest salary prediction model (outperformed all baselines)\nUnsupervised clustering revealing 4 distinct job market segments\nMarket-entry roadmap presented to faculty panel\n\n\n\n\n\nTechnologies: Python · Pandas · Scikit-learn · DistilBERT · K-Means · Jupyter\nBoston University — Applied Machine Learning (AD699)\nAnalysed 2,500+ listings across 10 neighbourhoods to decode pricing dynamics. Regression modelling showed each additional bedroom lifts nightly rates by ~32%. Applied k-NN, Decision Tree, and DistilBERT for price-tier prediction; segmented the market into 4 actionable host profiles. Findings presented to faculty panel.\nKey Highlights:\n\nPricing regression: +32% nightly rate per additional bedroom\nMulti-model classification: k-NN, Decision Tree, DistilBERT\nK-Means market segmentation into 4 host strategy profiles\nAnalysis spanning 10 Zurich neighbourhoods\n\n\n\n\n\nTechnologies: Python · A/B Testing · Conjoint Analysis · K-Means · Google Colab\nBoston University — Marketing Analytics (AD654)\nSegmented 989 households into 5 customer profiles. Combined conjoint analysis and A/B testing to rank vendor preferences. Identified savoury food as top revenue driver (~$182K/day) — recommendations adopted as the course client’s final vendor selection and spatial layout strategy.\nKey Highlights:\n\n5-segment customer profiling from 989 households\nConjoint analysis + A/B testing for vendor preference ranking\nSavoury food identified as #1 revenue driver (~$182K/day)\nRecommendations directly adopted by course client"
+  },
+  {
+    "objectID": "projects.html#academic-projects",
+    "href": "projects.html#academic-projects",
+    "title": "Projects",
+    "section": "",
+    "text": "Technologies: Python · PySpark · Apache Spark · AWS EC2 · Random Forest · Git\nBoston University — Big Data Analytics (AD688) | Team Lead\nLed a team to mine 47,500+ real job postings from the Lightcast dataset via an ETL pipeline built with PySpark and Apache Spark, deployed on AWS EC2. Built a Random Forest salary model that outperformed all baselines. Identified 4 distinct job families via unsupervised clustering — delivered a market-entry roadmap presented to a faculty panel. Version-controlled using Git.\nKey Highlights:\n\nETL pipeline on AWS EC2 using PySpark and Apache Spark\nRandom Forest salary prediction model (outperformed all baselines)\nUnsupervised clustering revealing 4 distinct job market segments\nMarket-entry roadmap presented to faculty panel\n\n\n\n\n\nTechnologies: Python · Pandas · Scikit-learn · DistilBERT · K-Means · Jupyter\nBoston University — Applied Machine Learning (AD699)\nAnalysed 2,500+ listings across 10 neighbourhoods to decode pricing dynamics. Regression modelling showed each additional bedroom lifts nightly rates by ~32%. Applied k-NN, Decision Tree, and DistilBERT for price-tier prediction; segmented the market into 4 actionable host profiles. Findings presented to faculty panel.\nKey Highlights:\n\nPricing regression: +32% nightly rate per additional bedroom\nMulti-model classification: k-NN, Decision Tree, DistilBERT\nK-Means market segmentation into 4 host strategy profiles\nAnalysis spanning 10 Zurich neighbourhoods\n\n\n\n\n\nTechnologies: Python · A/B Testing · Conjoint Analysis · K-Means · Google Colab\nBoston University — Marketing Analytics (AD654)\nSegmented 989 households into 5 customer profiles. Combined conjoint analysis and A/B testing to rank vendor preferences. Identified savoury food as top revenue driver (~$182K/day) — recommendations adopted as the course client’s final vendor selection and spatial layout strategy.\nKey Highlights:\n\n5-segment customer profiling from 989 households\nConjoint analysis + A/B testing for vendor preference ranking\nSavoury food identified as #1 revenue driver (~$182K/day)\nRecommendations directly adopted by course client"
+  },
+  {
+    "objectID": "projects.html#achievements",
+    "href": "projects.html#achievements",
+    "title": "Projects",
+    "section": "Achievements",
+    "text": "Achievements\n\n1st Place — ABA@BU Hackathon, Fall 2025, Competition A: Dataset Analysis & Modelling (out of 40+ teams, Boston University Applied Business Analytics Programme)"
+  },
+  {
+    "objectID": "projects.html#github",
+    "href": "projects.html#github",
+    "title": "Projects",
+    "section": "GitHub",
+    "text": "GitHub\ngithub.com/mishalaboobackar"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Mishal Aboobackar",
+    "section": "",
+    "text": "I’m Mishal Aboobackar, an M.S. Applied Business Analytics candidate at Boston University (GPA: 3.5, May 2026) with professional experience as a Business Analyst spanning 23 countries. I combine technical depth in Python, SQL, Power BI, Tableau, and Apache Spark with a track record of measurable business outcomes.\nEligible for STEM OPT (3-year work authorisation). Available for full-time roles from June 2026."
+  },
+  {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
-    "title": "Mishal Aboobackar Manalody",
-    "section": "👋 About Me",
-    "text": "👋 About Me\nHello! I’m Mishal Aboobackar Manalody, a passionate MS Business Analytics student at Boston University. I’m dedicated to transforming data into actionable insights and leveraging technology to solve real-world business problems.\nWith a background in technology and hands-on experience in operations management, I bring a unique perspective that bridges technical expertise with business acumen."
+    "title": "Mishal Aboobackar",
+    "section": "",
+    "text": "I’m Mishal Aboobackar, an M.S. Applied Business Analytics candidate at Boston University (GPA: 3.5, May 2026) with professional experience as a Business Analyst spanning 23 countries. I combine technical depth in Python, SQL, Power BI, Tableau, and Apache Spark with a track record of measurable business outcomes.\nEligible for STEM OPT (3-year work authorisation). Available for full-time roles from June 2026."
   },
   {
-    "objectID": "index.html#career-goals",
-    "href": "index.html#career-goals",
-    "title": "Mishal Aboobackar Manalody",
-    "section": "🎯 Career Goals",
-    "text": "🎯 Career Goals\nMy professional aspirations include:\n\nData Scientist/Analyst: Applying statistical methods and machine learning to derive meaningful insights from complex datasets\nBusiness Intelligence Professional: Building data-driven solutions that empower organizations to make informed decisions\nAnalytics Consultant: Helping businesses leverage data analytics for strategic growth and operational efficiency\n\nI am particularly interested in roles that allow me to combine my technical skills with my understanding of business operations."
+    "objectID": "index.html#what-i-bring",
+    "href": "index.html#what-i-bring",
+    "title": "Mishal Aboobackar",
+    "section": "What I Bring",
+    "text": "What I Bring\n\nAnalytics & ML: Python, SQL, R, Power BI, Tableau, Apache Spark, Scikit-learn, NLP\nBusiness outcomes: Accelerated revenue growth from 3% to 9%; reduced ERP errors by 25%; scaled CSR programme to 2,000+ beneficiaries\nData engineering: ETL pipelines, PySpark, AWS EC2, Oracle, Cloudera\nCross-functional collaboration: Executive stakeholder reporting across 23 country operations"
   },
   {
-    "objectID": "index.html#interests",
-    "href": "index.html#interests",
-    "title": "Mishal Aboobackar Manalody",
-    "section": "💡 Interests",
-    "text": "💡 Interests\n\nProfessional Interests\n\nData Science & Analytics: Exploring patterns and trends in data to drive decision-making\nMachine Learning & AI: Building predictive models and intelligent systems\nBusiness Intelligence: Creating dashboards and reports that tell compelling data stories\nWeb Development: Developing interactive applications and data products\n\n\n\nPersonal Interests\n\n🌍 Learning new languages and cultures\n📚 Continuous learning and skill development\n🤝 Networking and building professional relationships\n💻 Exploring emerging technologies"
+    "objectID": "index.html#education-experience-snapshot",
+    "href": "index.html#education-experience-snapshot",
+    "title": "Mishal Aboobackar",
+    "section": "Education & Experience Snapshot",
+    "text": "Education & Experience Snapshot\n\n\nEducation\n\nBoston University — M.S. Applied Business Analytics, 2024–2026 (GPA: 3.5)\nSRM University — B.Tech, Computer Science — Big Data Analytics, 2020–2024\n\n\n\nExperience\n\nBusiness Analyst — G-TEC Education, Sep 2023 – Jan 2025 (23 countries)\nInventory Management — Boston University Dining Services, Jan–May 2025\nHR & Operations Intern — USDC Global, Jul–Aug 2023"
+  },
+  {
+    "objectID": "index.html#current-focus",
+    "href": "index.html#current-focus",
+    "title": "Mishal Aboobackar",
+    "section": "Current Focus",
+    "text": "Current Focus\nI’m looking for opportunities in data analytics, business intelligence, and data science where I can contribute through clear analysis, strong execution, and practical understanding of business needs."
+  },
+  {
+    "objectID": "index.html#technical-skills",
+    "href": "index.html#technical-skills",
+    "title": "Mishal Aboobackar",
+    "section": "Technical Skills",
+    "text": "Technical Skills\n\n\n\n\n\n\n\nCategory\nSkills\n\n\n\n\nProgramming & Libraries\nPython (Pandas, NumPy, Scikit-learn, PySpark, Matplotlib), R, SQL\n\n\nMachine Learning & AI\nRegression, Classification (Decision Tree, Random Forest, k-NN, CNN, DistilBERT), K-Means, NLP (VADER, RoBERTa, GloVe, SpaCy), A/B Testing\n\n\nBI & Visualisation\nPower BI, Tableau, MS Excel (PivotTables, Power Query, Advanced Formulas)\n\n\nData Engineering & Cloud\nApache Spark, PySpark, ETL, Git, GitHub, AWS (EC2, Cloud Foundations), Oracle, Cloudera\n\n\nBusiness & ERP Tools\nGEMS ERP, Zoho, RECIBO, Google Workspace, Microsoft Office Suite, Visio, Lucidchart"
+  },
+  {
+    "objectID": "index.html#languages",
+    "href": "index.html#languages",
+    "title": "Mishal Aboobackar",
+    "section": "Languages",
+    "text": "Languages\n\n\n\nLanguage\nProficiency\n\n\n\n\nEnglish\nFluent\n\n\nHindi\nFluent\n\n\nMalayalam\nFluent\n\n\nTamil\nIntermediate\n\n\nArabic\nBasic\n\n\nJapanese\nBasic"
+  },
+  {
+    "objectID": "index.html#education-1",
+    "href": "index.html#education-1",
+    "title": "Mishal Aboobackar",
+    "section": "Education",
+    "text": "Education\n\n\n\n\n\n\n\n\nDegree\nInstitution\nPeriod\n\n\n\n\nM.S. Applied Business Analytics\nBoston University\n2024 – 2026\n\n\nB.Tech, Computer Science — Big Data Analytics\nSRM University\n2020 – 2024"
+  },
+  {
+    "objectID": "index.html#lets-connect",
+    "href": "index.html#lets-connect",
+    "title": "Mishal Aboobackar",
+    "section": "Let’s Connect",
+    "text": "Let’s Connect\n\nEmail: mishalaboo@gmail.com\nPhone: +1 (617) 849-4179\nLinkedIn: mishal-aboobackar\nGitHub: mishalaboobackar"
   }
 ]
