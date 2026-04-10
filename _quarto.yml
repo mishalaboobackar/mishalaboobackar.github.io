@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - mishalcv.pdf
 
 website:
   title: "Mishal Aboobackar Manalody"
