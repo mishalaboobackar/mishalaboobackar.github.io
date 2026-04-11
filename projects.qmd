@@ -23,6 +23,8 @@ Led a team to mine **47,500+ real job postings** from the Lightcast dataset via 
 - Unsupervised clustering revealing 4 distinct job market segments
 - Market-entry roadmap presented to faculty panel
 
+[View on GitHub](https://github.com/mishalaboobackar/ad688-employability-sp25A1-group6){.btn .btn-primary}
+
 ---
 
 ### Zurich Airbnb Market Analysis
