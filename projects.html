@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects · Mishal Aboobackar</title>
+<meta name="description" content="Selected analytics projects: restaurant analytics platform with live dashboard, job-market intelligence pipeline, and pricing analysis.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="nav"><div class="wrap">
+  <a class="brand" href="index.html"><span class="mono">MA</span> Mishal Aboobackar</a>
+  <button class="burger" aria-label="Menu">☰</button>
+  <div class="nav-links">
+    <a href="index.html">Home</a><a href="projects.html">Projects</a>
+    <a href="experience.html">Experience</a><a href="impact.html">Impact</a>
+    <a class="nav-cta" href="contact.html">Contact</a>
+  </div>
+</div></nav>
+
+<section><div class="wrap">
+  <div class="eyebrow reveal">Selected work</div>
+  <h2 class="section-title reveal">Projects with receipts.</h2>
+  <p class="section-sub reveal">Each of these is real, end-to-end work, not a tutorial. The first one ships with a live dashboard built from the actual project data, right here on the page.</p>
+
+  <!-- PROJECT 1: Restaurant Analytics -->
+  <article class="proj reveal">
+    <div class="proj-head">
+      <div>
+        <div class="tag">Featured · Python · SQL · Streamlit</div>
+        <h3>Restaurant Analytics Platform</h3>
+      </div>
+      <a class="btn btn-ghost" href="https://github.com/mishalaboobackar/restaurant-analytics-AD599" target="_blank" rel="noopener">View repo ↗</a>
+    </div>
+    <p style="color:var(--muted)">End-to-end analytics for a 20-branch restaurant chain across 14 US states: a full ETL pipeline, advanced SQL, an ML model, and an interactive dashboard. I built roughly 80% of this, owning the technical pipeline end to end.</p>
+    <div class="metricline">
+      <div><div class="v">$248K</div><div class="k">revenue analyzed</div></div>
+      <div><div class="v">1,838/1,839</div><div class="k">orders with a data-quality defect I caught &amp; fixed</div></div>
+      <div><div class="v">8</div><div class="k">advanced SQL queries (window fns + CTEs)</div></div>
+    </div>
+    <ul>
+      <li>Built a Python + SQL ETL pipeline: extract from SQLite, transform via analytical views, load a separate reporting database.</li>
+      <li>Caught a revenue defect where stored subtotals were wrong for 1,838 of 1,839 orders (~$87 each) and recomputed every figure from line items.</li>
+      <li>Wrote 8 advanced SQL queries using RANK, LAG, ROW_NUMBER, rolling windows, and a CTE for nested aggregates.</li>
+      <li>Trained Linear Regression and Random Forest models; reported an honest null finding plus a per-item promote/improve shortlist.</li>
+    </ul>
+    <div class="finding"><b>What I found</b><p>The cheapest items to make, sides like coleslaw and fries, earn the best margins, while a few best-selling mains barely turn a profit, so promoting high-margin sides lifts profit more than pushing big-ticket dishes. And customer ratings track service, not the menu, so better staffing moves reviews faster than new recipes.</p></div>
+    <div class="stack"><span>Python</span><span>pandas</span><span>SQL / SQLite</span><span>scikit-learn</span><span>Streamlit</span><span>Plotly</span><span>Jupyter</span></div>
+
+    <!-- LIVE DASHBOARD -->
+    <div class="dash">
+      <div class="dash-bar"><span class="dots"><i></i><i></i><i></i></span><span class="ttl">restaurant_analytics · live preview</span><span class="live">● LIVE · real data</span></div>
+      <div class="kpis">
+        <div class="kpi"><div class="v" id="k_rev">$0</div><div class="k">Total revenue</div></div>
+        <div class="kpi"><div class="v" id="k_ord">0</div><div class="k">Orders</div></div>
+        <div class="kpi"><div class="v" id="k_aov">$0</div><div class="k">Avg order value</div></div>
+        <div class="kpi"><div class="v" id="k_br">0</div><div class="k">Branches · 14 states</div></div>
+      </div>
+      <div class="dash-controls">
+        <label for="view">View:</label>
+        <select id="view">
+          <option value="monthly">Monthly revenue trend</option>
+          <option value="branch">Revenue by branch (top 12)</option>
+          <option value="category">Revenue by category</option>
+          <option value="items">Top menu items</option>
+        </select>
+      </div>
+      <div class="charts">
+        <div class="chart-box"><h4 id="mainTitle">Monthly revenue trend</h4><canvas id="mainChart"></canvas></div>
+        <div class="chart-box"><h4>Menu margin: best vs. lowest (gross margin %)</h4><canvas id="marginChart"></canvas></div>
+      </div>
+    </div>
+    <div class="proj-links">
+      <a href="https://github.com/mishalaboobackar/restaurant-analytics-AD599" target="_blank" rel="noopener">↗ GitHub repository</a>
+      <a href="https://github.com/mishalaboobackar/restaurant-analytics-AD599/tree/main/phase2" target="_blank" rel="noopener">↗ Pipeline &amp; dashboard code</a>
+    </div>
+  </article>
+
+  <!-- PROJECT 2: Job Market Intelligence -->
+  <article class="proj reveal">
+    <div class="proj-head">
+      <div><div class="tag">Team Lead · PySpark · AWS</div><h3>Job Market Intelligence</h3></div>
+    </div>
+    <p style="color:var(--muted)">Led a 5-person team to mine the labor market for data and analytics roles and deliver a market-entry roadmap.</p>
+    <div class="metricline">
+      <div><div class="v">47,500+</div><div class="k">job postings processed</div></div>
+      <div><div class="v">4</div><div class="k">job families identified by clustering</div></div>
+    </div>
+    <ul>
+      <li>Built a PySpark / Apache Spark ETL pipeline on AWS EC2 to process 47,500+ postings, demonstrating scalable, large-dataset handling.</li>
+      <li>Trained a Random Forest salary model that outperformed baselines, and used unsupervised clustering to surface 4 distinct job families.</li>
+      <li>Presented an actionable market-entry roadmap to a faculty review panel; version-controlled in Git.</li>
+    </ul>
+    <div class="finding"><b>What I found</b><p>Professional Services firms dominate hiring (Deloitte alone posted ~2,300 roles, about 5% of the market). Clustering the postings surfaced four job families: a large general-analyst group, specialized AI / deep-learning engineers, big-data engineers (highest Spark and Scala, mostly on-site), and entry-level data roles, which were the most remote-friendly. For a job seeker, the widest and most accessible door is the general-analyst track.</p></div>
+    <div class="stack"><span>Python</span><span>PySpark</span><span>Apache Spark</span><span>AWS EC2</span><span>Random Forest</span><span>Git</span></div>
+    <div class="gallery" style="margin-top:18px">
+      <figure><img src="images/jobmarket/top_industries.jpg" alt="Top hiring industries"><figcaption>Top hiring industries for data roles.</figcaption></figure>
+      <figure><img src="images/jobmarket/salary_by_remote.jpg" alt="Salary by remote type"><figcaption>Salary distribution by remote arrangement.</figcaption></figure>
+      <figure><img src="images/jobmarket/skills_radar_by_occupation.jpg" alt="Skills radar by occupation"><figcaption>Skill demand radar by occupation.</figcaption></figure>
+      <figure><img src="images/jobmarket/model_comparison.jpg" alt="Model comparison"><figcaption>Salary model performance comparison.</figcaption></figure>
+    </div>
+    <div class="proj-links">
+      <a href="https://mishalaboobackar.github.io/ad688-employability-sp25A1-group6/" target="_blank" rel="noopener">↗ Full report website (Quarto)</a>
+    </div>
+  </article>
+
+  <!-- PROJECT 3: Airbnb Pricing -->
+  <article class="proj reveal">
+    <div class="proj-head">
+      <div><div class="tag">Pricing · ML</div><h3>Retail Pricing &amp; Market Analysis (Zurich)</h3></div>
+    </div>
+    <p style="color:var(--muted)">Decoded the pricing dynamics of a short-stay market and built models to predict price tiers.</p>
+    <div class="metricline">
+      <div><div class="v">2,500+</div><div class="k">listings analyzed</div></div>
+      <div><div class="v">~32%</div><div class="k">nightly-rate lift per added bedroom</div></div>
+      <div><div class="v">4</div><div class="k">market segments for pricing strategy</div></div>
+    </div>
+    <ul>
+      <li>Used regression to quantify the drivers of price and identify the biggest levers.</li>
+      <li>Built price-tier prediction models (k-NN, Decision Tree, DistilBERT) and segmented the market into 4 actionable profiles.</li>
+    </ul>
+    <div class="finding"><b>What I found</b><p>Two levers move price the most: size and location. Each added bedroom lifts the nightly rate about 32%, and prices vary sharply across the 10 neighbourhoods. K-Means surfaced 4 distinct host profiles, and a language model (DistilBERT) reading the listing text predicted price tiers better than the traditional models, useful for spotting under- and over-priced listings.</p></div>
+    <div class="stack"><span>Python</span><span>pandas</span><span>scikit-learn</span><span>DistilBERT</span><span>K-Means</span></div>
+    <div class="dash">
+      <div class="dash-bar"><span class="dots"><i></i><i></i><i></i></span><span class="ttl">zurich_listings · live</span><span class="live">● real data</span></div>
+      <div class="kpis">
+        <div class="kpi"><div class="v" id="z_n">0</div><div class="k">Listings analyzed</div></div>
+        <div class="kpi"><div class="v" id="z_avg">$0</div><div class="k">Avg nightly price</div></div>
+        <div class="kpi"><div class="v" id="z_med">$0</div><div class="k">Median price</div></div>
+        <div class="kpi"><div class="v">~32%</div><div class="k">Price lift per bedroom</div></div>
+      </div>
+      <div class="dash-controls"><label for="zview">View:</label>
+        <select id="zview"><option value="bed">Price by bedrooms</option><option value="nb">Price by neighbourhood</option><option value="room">Room-type mix</option></select></div>
+      <div class="chart-box"><canvas id="zChart"></canvas></div>
+    </div>
+
+  <!-- PROJECT 4: Festival -->
+  <article class="proj reveal">
+    <div class="proj-head">
+      <div><div class="tag">Pricing · Marketing Analytics</div><h3>Category Revenue &amp; Pricing Strategy (Festival)</h3></div>
+    </div>
+    <p style="color:var(--muted)">Translated customer research into category pricing and a vendor mix that the client adopted.</p>
+    <div class="metricline">
+      <div><div class="v">989</div><div class="k">households segmented</div></div>
+      <div><div class="v">$182K/day</div><div class="k">revenue driver identified</div></div>
+    </div>
+    <ul>
+      <li>Applied conjoint analysis and A/B testing to evaluate pricing effectiveness and rank category preferences.</li>
+      <li>Recommended a category pricing and vendor mix, identifying savoury food as a $182K/day driver, adopted as the final strategy.</li>
+    </ul>
+    <div class="finding"><b>What I found</b><p>K-Means split the 989 households into 5 customer profiles, and the split is actionable: one group pairs high income with the strongest event interest, the prime target, while another has the income but little interest and isn't worth chasing. Conjoint analysis and A/B testing then ranked what each values, with savoury food the clear #1 revenue driver at about $182K a day, which set the final vendor lineup.</p></div>
+    <div class="stack"><span>Python</span><span>Conjoint Analysis</span><span>A/B Testing</span><span>K-Means</span></div>
+    <div class="dash">
+      <div class="dash-bar"><span class="dots"><i></i><i></i><i></i></span><span class="ttl">regional_families · live</span><span class="live">● real data</span></div>
+      <div class="kpis">
+        <div class="kpi"><div class="v" id="l_n">0</div><div class="k">Households segmented</div></div>
+        <div class="kpi"><div class="v">5</div><div class="k">Customer profiles (K-Means)</div></div>
+        <div class="kpi"><div class="v">8.3/10</div><div class="k">Interest in prime segment</div></div>
+        <div class="kpi"><div class="v">$182K/day</div><div class="k">Top revenue driver</div></div>
+      </div>
+      <div class="chart-box"><h4>Customer profiles: income vs. event interest (bubble size = segment size)</h4><canvas id="lChart"></canvas></div>
+    </div>
+  </article>
+
+  <div style="margin-top:10px" class="reveal">
+    <a class="btn btn-ghost" href="https://github.com/mishalaboobackar" target="_blank" rel="noopener">More on GitHub ↗</a>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <span>© 2026 Mishal Aboobackar Manalody</span>
+  <span><a href="https://github.com/mishalaboobackar">GitHub</a> · <a href="https://www.linkedin.com/in/mishal-aboobackar-5776bb291/">LinkedIn</a> · <a href="mailto:mishalaboo@gmail.com">Email</a></span>
+</div></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script>
+const DASH={"kpis":{"total_revenue":247964.98,"total_orders":1839,"aov":134.84,"branches":20},
+"top_branches":[{"name":"Jacksonville","rev":15325},{"name":"Memphis","rev":13824},{"name":"Dallas","rev":13658},{"name":"Nashville","rev":13356},{"name":"San Antonio","rev":13183},{"name":"Phoenix","rev":12884},{"name":"Boston","rev":12676},{"name":"Philadelphia","rev":12599},{"name":"Houston","rev":12526},{"name":"Chicago","rev":12414},{"name":"Las Vegas","rev":12363},{"name":"Austin","rev":12362}],
+"category_mix":[{"cat":"Mains","rev":57249},{"cat":"Appetizers","rev":44908},{"cat":"Beverages","rev":44477},{"cat":"Sides","rev":42851},{"cat":"Desserts","rev":30228},{"cat":"Brunch","rev":28252}],
+"top_items":[{"name":"Onion Rings","rev":8162},{"name":"Calamari","rev":8066},{"name":"Pancakes","rev":7985},{"name":"Soup","rev":7971},{"name":"Ice Cream","rev":7875},{"name":"Burger","rev":7794},{"name":"Wine","rev":7782},{"name":"Coffee","rev":7781}],
+"best_margin":[{"name":"Coleslaw","m":125},{"name":"Fries","m":113},{"name":"Soup","m":111},{"name":"Cheesecake","m":108},{"name":"Wings","m":107}],
+"worst_margin":[{"name":"Pizza","m":16},{"name":"Juice","m":17},{"name":"Tacos","m":22},{"name":"Calamari","m":26},{"name":"Chicken","m":27}],
+"monthly":[{"m":"2022-01","rev":7698},{"m":"2022-02","rev":7545},{"m":"2022-03","rev":9720},{"m":"2022-04","rev":7437},{"m":"2022-05","rev":7988},{"m":"2022-06","rev":6511},{"m":"2022-07","rev":9108},{"m":"2022-08","rev":7498},{"m":"2022-09","rev":9159},{"m":"2022-10","rev":8037},{"m":"2022-11","rev":8342},{"m":"2022-12","rev":8454},{"m":"2023-01","rev":8643},{"m":"2023-02","rev":9601},{"m":"2023-03","rev":9169},{"m":"2023-04","rev":9295},{"m":"2023-05","rev":7382},{"m":"2023-06","rev":6616},{"m":"2023-07","rev":9450},{"m":"2023-08","rev":8665},{"m":"2023-09","rev":6323},{"m":"2023-10","rev":7976},{"m":"2023-11","rev":7906},{"m":"2023-12","rev":9973},{"m":"2024-01","rev":7064},{"m":"2024-02","rev":7451},{"m":"2024-03","rev":12235},{"m":"2024-04","rev":6865},{"m":"2024-05","rev":8561},{"m":"2024-06","rev":7293}]};
+
+Chart.defaults.color='#99A3B4';
+Chart.defaults.font.family="'Inter',sans-serif";
+Chart.defaults.borderColor='rgba(255,255,255,.06)';
+const ACC='#5EEAD4', ACC2='#7C9CFF', WARM='#FFB86B', ROSE='#FF7A8A';
+const fmt=v=>'$'+v.toLocaleString('en-US');
+
+// counters
+function up(id,target,pre,dec){const el=document.getElementById(id);let s=null;const d=1100;
+ function st(t){if(!s)s=t;const p=Math.min((t-s)/d,1);const e=1-Math.pow(1-p,3);
+ el.textContent=pre+(target*e).toLocaleString('en-US',{maximumFractionDigits:dec||0});if(p<1)requestAnimationFrame(st);}requestAnimationFrame(st);}
+const ko=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){
+  up('k_rev',DASH.kpis.total_revenue,'$',0);up('k_ord',DASH.kpis.total_orders,'',0);
+  up('k_aov',DASH.kpis.aov,'$',0);up('k_br',DASH.kpis.branches,'',0);ko.disconnect();}})},{threshold:.4});
+ko.observe(document.querySelector('.dash'));
+
+let main;
+function grad(ctx){const g=ctx.createLinearGradient(0,0,0,230);g.addColorStop(0,'rgba(94,234,212,.45)');g.addColorStop(1,'rgba(94,234,212,0)');return g;}
+function render(view){
+  const c=document.getElementById('mainChart');const t=document.getElementById('mainTitle');
+  if(main)main.destroy();
+  let cfg;
+  if(view==='monthly'){t.textContent='Monthly revenue trend (2022–2024)';
+    cfg={type:'line',data:{labels:DASH.monthly.map(d=>d.m),datasets:[{data:DASH.monthly.map(d=>d.rev),borderColor:ACC,backgroundColor:grad(c.getContext('2d')),fill:true,tension:.35,pointRadius:0,borderWidth:2}]},
+    options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:x=>fmt(x.raw)}}},scales:{x:{ticks:{maxTicksLimit:8}},y:{ticks:{callback:v=>'$'+(v/1000)+'k'}}}}};}
+  else if(view==='branch'){t.textContent='Revenue by branch (top 12)';
+    cfg={type:'bar',data:{labels:DASH.top_branches.map(d=>d.name),datasets:[{data:DASH.top_branches.map(d=>d.rev),backgroundColor:ACC2,borderRadius:6}]},
+    options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:x=>fmt(x.raw)}}},scales:{y:{ticks:{callback:v=>'$'+(v/1000)+'k'}}}}};}
+  else if(view==='category'){t.textContent='Revenue by category';
+    cfg={type:'doughnut',data:{labels:DASH.category_mix.map(d=>d.cat),datasets:[{data:DASH.category_mix.map(d=>d.rev),backgroundColor:[ACC,ACC2,'#B68CFF',WARM,ROSE,'#8FE0A0'],borderColor:'#0a0d14',borderWidth:2}]},
+    options:{plugins:{legend:{position:'right'},tooltip:{callbacks:{label:x=>x.label+': '+fmt(x.raw)}}},cutout:'58%'}};}
+  else{t.textContent='Top menu items by revenue';
+    cfg={type:'bar',data:{labels:DASH.top_items.map(d=>d.name),datasets:[{data:DASH.top_items.map(d=>d.rev),backgroundColor:WARM,borderRadius:6}]},
+    options:{indexAxis:'y',plugins:{legend:{display:false},tooltip:{callbacks:{label:x=>fmt(x.raw)}}},scales:{x:{ticks:{callback:v=>'$'+(v/1000)+'k'}}}}};}
+  main=new Chart(c,cfg);
+}
+document.getElementById('view').addEventListener('change',e=>render(e.target.value));
+render('monthly');
+
+// margin chart
+new Chart(document.getElementById('marginChart'),{type:'bar',
+ data:{labels:[...DASH.best_margin.map(d=>d.name),...DASH.worst_margin.map(d=>d.name)],
+ datasets:[{data:[...DASH.best_margin.map(d=>d.m),...DASH.worst_margin.map(d=>d.m)],
+ backgroundColor:[...DASH.best_margin.map(()=>ACC),...DASH.worst_margin.map(()=>ROSE)],borderRadius:5}]},
+ options:{indexAxis:'y',plugins:{legend:{display:false},tooltip:{callbacks:{label:x=>x.raw+'% margin'}}},scales:{x:{ticks:{callback:v=>v+'%'}}}}});
+</script>
+<script>
+const PROJ={"zurich": {"rows": 2499, "avg_price": 169, "median_price": 130, "by_neighbourhood": [{"n": "Langstrasse", "price": 183}, {"n": "Sihlfeld", "price": 134}, {"n": "Altstetten", "price": 231}, {"n": "Oerlikon", "price": 188}, {"n": "Alt-Wiedikon", "price": 145}, {"n": "Rathaus", "price": 217}, {"n": "Unterstrass", "price": 165}, {"n": "Enge", "price": 156}], "room_types": [{"t": "Entire home/apt", "c": 1845}, {"t": "Private room", "c": 625}, {"t": "Shared room", "c": 20}, {"t": "Hotel room", "c": 9}], "by_bedrooms": [{"b": 1, "price": 172}, {"b": 2, "price": 225}, {"b": 3, "price": 288}, {"b": 4, "price": 326}, {"b": 5, "price": 370}]}, "lobster": {"rows": 989, "income_bracket": [{"b": "Low", "c": 337}, {"b": "Middle", "c": 320}, {"b": "High", "c": 332}], "activity": [{"a": "Both", "c": 332}, {"a": "Outdoor", "c": 330}, {"a": "Indoor", "c": 327}], "interest_by_income": [{"b": "Low", "v": 5.5}, {"b": "Middle", "v": 5.5}, {"b": "High", "v": 5.8}]}};
+const PA='#5EEAD4',PB='#7C9CFF',PC='#FFB86B',PD='#B68CFF',PE='#FF7A8A';
+const pf=v=>'$'+v.toLocaleString('en-US');
+const st=(id,v)=>{const e=document.getElementById(id);if(e)e.textContent=v;};
+st('z_n',PROJ.zurich.rows.toLocaleString()); st('z_avg','$'+PROJ.zurich.avg_price); st('z_med','$'+PROJ.zurich.median_price);
+st('l_n',PROJ.lobster.rows.toLocaleString());
+let zc,lc;
+function zR(v){const el=document.getElementById('zChart'); if(!el)return; if(zc)zc.destroy(); let cfg;
+  if(v==='bed') cfg={type:'bar',data:{labels:PROJ.zurich.by_bedrooms.map(d=>d.b+' bd'),datasets:[{data:PROJ.zurich.by_bedrooms.map(d=>d.price),backgroundColor:PA,borderRadius:6}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:x=>pf(x.raw)}}},scales:{y:{ticks:{callback:v=>'$'+v}}}}};
+  else if(v==='nb') cfg={type:'bar',data:{labels:PROJ.zurich.by_neighbourhood.map(d=>d.n),datasets:[{data:PROJ.zurich.by_neighbourhood.map(d=>d.price),backgroundColor:PB,borderRadius:6}]},options:{indexAxis:'y',plugins:{legend:{display:false},tooltip:{callbacks:{label:x=>pf(x.raw)}}},scales:{x:{ticks:{callback:v=>'$'+v}}}}};
+  else cfg={type:'doughnut',data:{labels:PROJ.zurich.room_types.map(d=>d.t),datasets:[{data:PROJ.zurich.room_types.map(d=>d.c),backgroundColor:[PA,PB,PD,PC],borderColor:'#0a0d14',borderWidth:2}]},options:{plugins:{legend:{position:'right'}},cutout:'56%'}};
+  zc=new Chart(el,cfg);}
+const ze=document.getElementById('zview'); if(ze)ze.addEventListener('change',e=>zR(e.target.value)); zR('bed');
+const LSEG=[{"size": 195, "income": 119494, "interest": 2.6, "travel": 289, "name": "Profile 1"}, {"size": 224, "income": 117716, "interest": 8.3, "travel": 291, "name": "Profile 2"}, {"size": 202, "income": 113563, "interest": 5.4, "travel": 144, "name": "Profile 3"}, {"size": 194, "income": 103684, "interest": 5.2, "travel": 403, "name": "Profile 4"}, {"size": 174, "income": 96970, "interest": 6.2, "travel": 272, "name": "Profile 5"}];
+(function lBubble(){const el=document.getElementById('lChart'); if(!el)return;
+  const mx=Math.max.apply(null,LSEG.map(s=>s.size)); const col=[PA,PB,PC,PD,PE];
+  new Chart(el,{type:'bubble',data:{datasets:LSEG.map((s,i)=>({label:s.name,data:[{x:s.income,y:s.interest,r:7+s.size/mx*20}],backgroundColor:col[i%5]+'cc',borderColor:col[i%5]}))},
+   options:{plugins:{legend:{position:'right',labels:{boxWidth:10}},tooltip:{callbacks:{label:x=>{const s=LSEG[x.datasetIndex];return s.name+': $'+s.income.toLocaleString()+' income, '+s.interest+'/10 interest, '+s.size+' households';}}}},
+   scales:{x:{title:{display:true,text:'Avg household income'},ticks:{callback:v=>'$'+(v/1000)+'k'}},y:{title:{display:true,text:'Event interest (0-10)'},suggestedMin:0,suggestedMax:10}}}});})();
+</script>
+<script src="main.js"></script>
+</body>
+</html>
