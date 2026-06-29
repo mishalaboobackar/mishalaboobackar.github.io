@@ -76,8 +76,8 @@ h2.section-title{font-size:clamp(1.8rem,4vw,2.7rem);margin-bottom:8px}
 .portrait-wrap canvas{width:100%;height:100%;display:block;cursor:crosshair}
 .portrait-wrap .hint{position:absolute;left:0;right:0;bottom:8px;text-align:center;font-family:var(--font-m);font-size:.66rem;color:var(--faint);letter-spacing:.08em;pointer-events:none;opacity:.8;transition:opacity .3s}
 .portrait-wrap .skills-overlay{position:absolute;inset:0;display:flex;flex-wrap:wrap;gap:6px;align-content:center;justify-content:center;padding:20px 16px;opacity:0;transition:opacity .35s;background:rgba(8,11,16,.4);pointer-events:none}
-.portrait-wrap:hover .skills-overlay{opacity:1}
-.portrait-wrap:hover .hint{opacity:0}
+.portrait-wrap:hover .skills-overlay,.portrait-wrap.show .skills-overlay{opacity:1}
+.portrait-wrap:hover .hint,.portrait-wrap.show .hint{opacity:0}
 .skills-overlay span{font-family:var(--font-m);font-size:.62rem;padding:4px 8px;border:1px solid var(--line-2);border-radius:999px;color:var(--accent);background:rgba(11,14,20,.65)}
 .portrait-fallback{display:none}
 .portrait-wrap.fallback canvas{display:none}
@@ -222,5 +222,26 @@ footer a{color:var(--muted)}footer a:hover{color:var(--accent)}
   .nav-links{position:fixed;inset:66px 0 auto 0;flex-direction:column;background:var(--ink-2);border-bottom:1px solid var(--line);padding:14px 24px;gap:4px;display:none}
   .nav-links.open{display:flex}
   .burger{display:block}
+}
+@media(max-width:680px){
+  section{padding:52px 0}
+  .wrap{padding:0 18px}
+  .hero{padding:42px 0 36px}
+  .hero h1{font-size:clamp(2rem,8.5vw,2.8rem)}
+  .hero .lead{font-size:1rem}
+  .hero-cta{gap:10px}
+  .hero-cta .btn{flex:1 1 auto;justify-content:center}
+  .nav .wrap{height:58px}
+  .brand{font-size:.92rem;gap:9px}
+  .brand .mono{width:32px;height:32px;border-radius:9px}
+  .proj{padding:20px;border-radius:18px}
+  .proj-head h3{font-size:1.3rem}
+  .dash{padding:14px}
+  .dash-bar .ttl{font-size:.72rem}
+  .metricline{gap:16px}
+  .metricline .v{font-size:1.3rem}
+  .gallery img,.gallery .slot{height:200px}
+  .section-sub{margin-bottom:30px}
+  .avatar-inner{padding:22px}
 }
 @media(max-width:520px){.stats{grid-template-columns:1fr}.kpis{grid-template-columns:1fr}}

@@ -48,7 +48,7 @@
         <span>scikit-learn</span><span>Pandas</span><span>NumPy</span><span>R</span><span>Git</span>
         <span>Plotly</span><span>A/B Testing</span><span>Random Forest</span><span>NLP</span><span>Forecasting</span>
       </div>
-      <span class="hint">hover to reveal my toolkit</span>
+      <span class="hint">tap or hover for my toolkit</span>
     </div>
     <div class="role">Business Analyst</div>
     <h3>Mishal Aboobackar</h3>
@@ -162,6 +162,7 @@
   }
   cv.addEventListener('pointermove',e=>{const r=cv.getBoundingClientRect();mouse.x=e.clientX-r.left;mouse.y=e.clientY-r.top;});
   cv.addEventListener('pointerleave',()=>{mouse.x=mouse.y=-999;});
+  cv.addEventListener('click',()=>{wrap.classList.toggle('show');});  // tap toggles the toolkit on touch devices
   addEventListener('resize',()=>{if(!wrap.classList.contains('fallback')&&img.complete&&img.naturalWidth){img.onload();}});
 })();
 </script>
