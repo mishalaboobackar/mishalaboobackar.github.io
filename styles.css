@@ -188,7 +188,11 @@ h2.section-title{font-size:clamp(1.8rem,4vw,2.7rem);margin-bottom:8px}
 .video-card .play{position:absolute;inset:0;margin:auto;width:66px;height:66px;display:grid;place-items:center;border-radius:50%;background:var(--grad);color:#06231f;font-size:1.4rem;box-shadow:0 12px 34px rgba(0,0,0,.55)}
 .video-card .vlabel{position:absolute;left:0;right:0;bottom:0;padding:16px;background:linear-gradient(0deg,rgba(0,0,0,.85),transparent);color:#fff;font-weight:600;font-size:.96rem}
 .reels{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;margin-top:18px}
-.reels .instagram-media{margin:0 !important}
+.ig-card{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;width:210px;min-height:150px;border-radius:16px;border:1px solid var(--line-2);background:linear-gradient(180deg,var(--surface),var(--ink-2));padding:22px;text-align:center;transition:.2s}
+.ig-card:hover{transform:translateY(-4px);border-color:var(--accent)}
+.ig-card .ig-badge{width:46px;height:46px;border-radius:13px;display:grid;place-items:center;color:#fff;font-size:1.3rem;background:linear-gradient(45deg,#f9ce34,#ee2a7b,#6228d7)}
+.ig-card .t{font-weight:600;color:var(--text);font-size:.92rem}
+.ig-card .s{font-size:.78rem;color:var(--accent);font-family:var(--font-m)}
 .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:18px}
 .gallery figure{margin:0;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--ink-2)}
 .gallery img{width:100%;height:230px;object-fit:cover;display:block;transition:.4s}
