@@ -1,45 +1,40 @@
-# Mishal Aboobackar — Portfolio (redesigned)
+# Mishal Aboobackar Manalody
 
-A creative, multi-page static portfolio. No build step, no framework. Just open `index.html`.
+**Early-career Business / Data Analyst · Boston, MA**
 
-## Pages
-- `index.html` — Home / About, animated stats, what I bring
-- `projects.html` — 4 case studies + a **live mini-dashboard** built from the real restaurant-analytics data (Chart.js)
-- `experience.html` — career timeline (incl. digital-marketing work), skills, education, certifications, languages
-- `impact.html` — CSR (Women Power), testimonials slots, international engagement
-- `contact.html` — contact details
-- `styles.css`, `main.js` — shared design system and behavior
-- `mishalcv.pdf` — CV download (currently your general resume; swap in whichever CV you prefer)
+M.S. in Applied Business Analytics at Boston University, with professional experience as a Business Analyst across a 23-country operation. I turn messy, multi-source data into decisions using SQL, Python, and BI tools, from cloud data pipelines to dashboards and experiment design.
 
-## Preview locally
-Open `index.html` in any browser. (For the Chart.js dashboard and Google Fonts you just need an internet connection.)
+🔗 **Live portfolio:** https://mishalaboobackar.github.io
 
-## Deploy to GitHub Pages (replaces the old Quarto site)
-Your user site repo is `mishalaboobackar.github.io`. To publish this version:
+---
 
-1. Copy all files in this folder into the root of that repo (replacing the old Quarto files).
-2. In the repo: **Settings → Pages → Build and deployment → Source: "Deploy from a branch"**, branch `main`, folder `/ (root)`. (If a Quarto GitHub Action is configured, disable it so it doesn't overwrite these files.)
-3. Commit and push:
-   ```
-   git add .
-   git commit -m "Redesign portfolio: multi-page site with live dashboard"
-   git push
-   ```
-4. Your site updates at https://mishalaboobackar.github.io in a minute or two.
+## Featured projects
 
-Prefer to keep the old site live until you're happy? Push to a new repo first (e.g. `portfolio-v2`) and enable Pages there to preview.
+**[Marketplace Operations & Revenue Analytics (Olist)](https://github.com/mishalaboobackar/olist-marketplace-analytics)** · BigQuery · dbt · SQL · Tableau
+End-to-end pipeline on 100k+ marketplace orders: 9 raw tables modeled and tested in dbt, analyzed in SQL, with a designed A/B test and a [live Tableau dashboard](https://public.tableau.com/app/profile/mishal.aboobackar.manalody/viz/OlistDashboard_17834988830640/Dashboard1). Found that late deliveries (~8% of orders) drive ~6x the bad-review rate.
 
-## Images to add (drop these into the `images/` folder)
-- `images/headshot.jpg` — your professional headshot. **This powers the interactive dot-portrait on the home page** (move your cursor over it and the dots scatter). Without it, the hero falls back to the "MA" monogram. Use a portrait-oriented photo; ~800px tall is plenty.
-- `images/news18.jpg` — the News18 Anti-Drug speaking photo (for the Events gallery on Impact).
-- `images/austrade.jpg` — already included (your Oman / Austrade expo photo).
+**[Restaurant Analytics Platform](https://github.com/mishalaboobackar/restaurant-analytics-AD599)** · Python · SQL · scikit-learn
+ETL pipeline and ML analysis for a 20-branch chain across 14 states; caught and fixed a revenue defect affecting 1,838 of 1,839 orders, with a live dashboard.
 
-The dot-portrait reads pixels from the image, so it needs to run from a web server. It works once deployed to GitHub Pages; if you open `index.html` straight from disk, some browsers block pixel reads and it will show the monogram instead (that's expected locally).
+**[Job Market Intelligence](https://mishalaboobackar.github.io/ad688-employability-sp25A1-group6/)** · PySpark · AWS · Team Lead
+Led a 5-person team to process 47,500+ job postings on a Spark/AWS pipeline; built a salary model and clustered the market into 4 job families.
 
-## Already wired
-- **Testimonials**: 3 Instagram reels + the YouTube video for Women Power are embedded on `impact.html`.
-- **Sharjah Book Fair**: linked to the Ahmedabad Mirror press article.
+**Retail Pricing & Market Analysis (Zurich)** · Regression · ML — quantified price drivers across 2,500+ listings.
+**Festival Revenue Strategy** · K-Means · A/B Testing — segmented 989 households into 5 actionable customer profiles.
 
-## To finish / personalize
-- **GPA**: set to **3.4** to match your resume. If your transcript says 3.5, update `index.html` and `experience.html`.
-- **CV**: replace `mishalcv.pdf` with your preferred CV file (keep the same name).
+---
+
+## Skills
+
+**Languages & query:** Python (pandas, scikit-learn, PySpark), SQL, R
+**Data & cloud:** BigQuery, dbt, Apache Spark, AWS, ETL, Git
+**BI & viz:** Power BI, Tableau, Excel
+**Analytics:** Regression, classification, clustering, A/B testing, forecasting
+
+---
+
+## About this site
+A hand-built, multi-page static site (HTML, CSS, JavaScript, Chart.js), deployed on GitHub Pages. No framework.
+
+## Contact
+[LinkedIn](https://www.linkedin.com/in/mishal-aboobackar-5776bb291/) · [Email](mailto:mishalaboo@gmail.com) · [GitHub](https://github.com/mishalaboobackar)
