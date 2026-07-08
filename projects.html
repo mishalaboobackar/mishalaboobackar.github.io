@@ -30,7 +30,7 @@
   <article class="proj reveal">
     <div class="proj-head">
       <div>
-        <div class="tag">Featured · BigQuery · dbt · SQL · Tableau</div>
+        <div class="tag">Featured · BigQuery · dbt · SQL · Python/ML · Tableau</div>
         <h3>Marketplace Operations &amp; Revenue Analytics (Olist)</h3>
       </div>
       <a class="btn btn-ghost" href="https://github.com/mishalaboobackar/olist-marketplace-analytics" target="_blank" rel="noopener">View repo ↗</a>
@@ -44,11 +44,12 @@
     <ul>
       <li>Built a <b>BigQuery + dbt</b> pipeline: 9 raw tables modeled into a tested star schema (staging → facts) with automated <b>data-quality tests</b>.</li>
       <li>Wrote analytical <b>SQL</b> (window functions, CTEs) for revenue trends, delivery performance, seller concentration, and customer retention.</li>
-      <li>Quantified the impact of late deliveries and <b>designed an A/B test</b> (hypothesis, primary + guardrail metrics, sample size) to validate a fix.</li>
+      <li>Confirmed the effect is <b>causal</b>, not just correlation: a logistic regression controlling for price, freight, item count, and delivery estimate still put late orders at ~<b>13x the odds</b> of a bad review, and a <b>Random Forest</b> ranked late delivery the top driver (<a href="https://github.com/mishalaboobackar/olist-marketplace-analytics/blob/main/notebooks/03_experiment_analysis.ipynb" target="_blank" rel="noopener">notebook</a>).</li>
+      <li><b>Designed an A/B test</b> (hypothesis, primary + guardrail metrics, sample size) to validate a more conservative delivery promise.</li>
       <li>Shipped an interactive <b>Tableau</b> dashboard from the modeled data, embedded live below.</li>
     </ul>
     <div class="finding"><b>What I found</b><p>Late deliveries are only ~8% of orders but do outsized damage: they average a <b>2.57</b> review score versus <b>4.29</b> on time, and are roughly <b>6x</b> more likely to draw a 1–2★ rating. Since <b>96.9%</b> of customers never buy again, that first delivery is effectively the whole relationship. Revenue is also concentrated, the top 20% of sellers drive 82% of it, so the recommended lever is a more conservative delivery promise, tested via a clean experiment.</p></div>
-    <div class="stack"><span>BigQuery</span><span>dbt</span><span>SQL</span><span>Python</span><span>Tableau</span><span>Git</span></div>
+    <div class="stack"><span>BigQuery</span><span>dbt</span><span>SQL</span><span>Python</span><span>statsmodels</span><span>scikit-learn</span><span>Tableau</span><span>Git</span></div>
 
     <div class="dash">
       <div class="dash-bar"><span class="dots"><i></i><i></i><i></i></span><span class="ttl">olist_marketplace · Tableau Public</span><span class="live">● LIVE · interactive</span></div>
