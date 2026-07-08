@@ -50,6 +50,11 @@
     </ul>
     <div class="finding"><b>What I found</b><p>Late deliveries are only ~8% of orders but do outsized damage: they average a <b>2.57</b> review score versus <b>4.29</b> on time, and are roughly <b>6x</b> more likely to draw a 1–2★ rating. Since <b>96.9%</b> of customers never buy again, that first delivery is effectively the whole relationship. Revenue is also concentrated, the top 20% of sellers drive 82% of it, so the recommended lever is a more conservative delivery promise, tested via a clean experiment.</p></div>
     <div class="stack"><span>BigQuery</span><span>dbt</span><span>SQL</span><span>Python</span><span>statsmodels</span><span>scikit-learn</span><span>Tableau</span><span>Git</span></div>
+    <div class="gallery" style="margin-top:18px">
+      <figure><img src="images/olist/odds_ratios.png" alt="Odds ratios for a bad review, controlling for confounders"><figcaption>Even after controlling for price, freight, distance, and item count, late delivery carries ~13x the odds of a 1–2★ review.</figcaption></figure>
+      <figure><img src="images/olist/feature_importance.png" alt="Random Forest feature importance"><figcaption>The model ranks late delivery the dominant driver of bad reviews, by a wide margin.</figcaption></figure>
+      <figure><img src="images/olist/roc_curve.png" alt="ROC curve, AUC 0.72"><figcaption>Bad-review classifier: AUC 0.72 on held-out orders.</figcaption></figure>
+    </div>
 
     <div class="dash">
       <div class="dash-bar"><span class="dots"><i></i><i></i><i></i></span><span class="ttl">olist_marketplace · Tableau Public</span><span class="live">● LIVE · interactive</span></div>
