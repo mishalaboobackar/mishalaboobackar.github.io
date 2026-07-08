@@ -26,6 +26,42 @@
   <h2 class="section-title reveal">Projects with receipts.</h2>
   <p class="section-sub reveal">Each of these is real, end-to-end work, not a tutorial. The first one ships with a live dashboard built from the actual project data, right here on the page.</p>
 
+  <!-- PROJECT: Olist Marketplace Analytics -->
+  <article class="proj reveal">
+    <div class="proj-head">
+      <div>
+        <div class="tag">Featured · BigQuery · dbt · SQL · Tableau</div>
+        <h3>Marketplace Operations &amp; Revenue Analytics (Olist)</h3>
+      </div>
+      <a class="btn btn-ghost" href="https://github.com/mishalaboobackar/olist-marketplace-analytics" target="_blank" rel="noopener">View repo ↗</a>
+    </div>
+    <p style="color:var(--muted)">End-to-end analytics on a Brazilian e-commerce marketplace: I loaded ~100k orders into a cloud warehouse, modeled and tested them with dbt, ran the analysis in SQL, designed a controlled experiment, and shipped a live interactive dashboard.</p>
+    <div class="metricline">
+      <div><div class="v">100K+</div><div class="k">orders modeled (9 tables)</div></div>
+      <div><div class="v">~6x</div><div class="k">higher 1–2★ rate when delivery is late</div></div>
+      <div><div class="v">R$15.4M</div><div class="k">revenue analyzed</div></div>
+    </div>
+    <ul>
+      <li>Built a <b>BigQuery + dbt</b> pipeline: 9 raw tables modeled into a tested star schema (staging → facts) with automated <b>data-quality tests</b>.</li>
+      <li>Wrote analytical <b>SQL</b> (window functions, CTEs) for revenue trends, delivery performance, seller concentration, and customer retention.</li>
+      <li>Quantified the impact of late deliveries and <b>designed an A/B test</b> (hypothesis, primary + guardrail metrics, sample size) to validate a fix.</li>
+      <li>Shipped an interactive <b>Tableau</b> dashboard from the modeled data, embedded live below.</li>
+    </ul>
+    <div class="finding"><b>What I found</b><p>Late deliveries are only ~8% of orders but do outsized damage: they average a <b>2.57</b> review score versus <b>4.29</b> on time, and are roughly <b>6x</b> more likely to draw a 1–2★ rating. Since <b>96.9%</b> of customers never buy again, that first delivery is effectively the whole relationship. Revenue is also concentrated, the top 20% of sellers drive 82% of it, so the recommended lever is a more conservative delivery promise, tested via a clean experiment.</p></div>
+    <div class="stack"><span>BigQuery</span><span>dbt</span><span>SQL</span><span>Python</span><span>Tableau</span><span>Git</span></div>
+
+    <div class="dash">
+      <div class="dash-bar"><span class="dots"><i></i><i></i><i></i></span><span class="ttl">olist_marketplace · Tableau Public</span><span class="live">● LIVE · interactive</span></div>
+      <iframe title="Olist Marketplace dashboard on Tableau Public"
+        src="https://public.tableau.com/views/OlistDashboard_17834988830640/Dashboard1?:showVizHome=no&amp;:embed=true&amp;:toolbar=no"
+        width="100%" height="820" loading="lazy" style="border:none;background:#fff;border-radius:8px"></iframe>
+    </div>
+    <div class="proj-links">
+      <a href="https://github.com/mishalaboobackar/olist-marketplace-analytics" target="_blank" rel="noopener">↗ GitHub repository</a>
+      <a href="https://public.tableau.com/app/profile/mishal.aboobackar.manalody/viz/OlistDashboard_17834988830640/Dashboard1" target="_blank" rel="noopener">↗ Live Tableau dashboard</a>
+    </div>
+  </article>
+
   <!-- PROJECT 1: Restaurant Analytics -->
   <article class="proj reveal">
     <div class="proj-head">
